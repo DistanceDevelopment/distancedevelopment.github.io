@@ -1,0 +1,21 @@
+---
+title: Activity for CTDS
+bibliography: software-bib.bib
+csl: ../apa.csl
+---
+
+
+# Visual interface to activity package
+
+Camera trap distance sampling (CTDS) is a relatively new application of distance sampling, using data from remotely-operated camera or video recorders.  The methods are described by @howe2018.  One important component of the analysis of camera trap distance sampling (CTDS) data is determining the proportion of animals that are active during the diurnal sampling window during which detections are counted.  A tool to help with this is the `activity` package (@rowcliffe2014, @activity-package in the `R` software.
+
+We have created a simple interface that allows web-based access to the core functionality of the `activity` package without the need to install R.  Users can upload detection times from a text file, fit a probability density to the times, input the proportion of the day represented, and obtain activity values together with bootstrap estimates of uncertainty.  Users can download the bootstrap results file.  The activity value and bootstrap results file can then be imported into Distance for Windows for use in analysis of CTDS data.
+
+The visual interface is built using the `shiny` package in R.  It is made available here as a free service to distance sampling users.  Please let us know if you have problems accessing it, or have suggestions for improvement.
+
+![](fitact.png)
+
+[Click here to access the web-based interface to the activity package.](https://lenthomas.shinyapps.io/Activity/)
+
+
+
