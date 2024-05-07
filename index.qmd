@@ -1,0 +1,28 @@
+---
+title: "Distance sampling org 2024"
+listing:
+  id: sample-listings
+  sort-ui: false
+  contents: 
+    - posts
+    - posts/oldsite/.qmd
+  sort: "date desc"
+  type: default
+  page-size: 5
+  date-format: "DD MMM YYYY"
+---
+
+![Photo by Matthew Fainman on Unsplash](matthew-fainman-MLxEmi1Fk8A-unsplash.jpg){width="100%"}
+
+## Recent news
+
+Welcome to the home of software and insights regarding distance sampling hosted by the Centre for Research into Ecological and Environmental Modelling at the University of St Andrews.
+
+::: {#sample-listings}
+:::
+
+```{=html}
+<!--
+Photo by <a href="https://unsplash.com/@mattf96?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Fainman</a> on <a href="https://unsplash.com/photos/a-gazelle-standing-in-a-field-of-tall-grass-MLxEmi1Fk8A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+-->
+```
