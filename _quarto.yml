@@ -47,7 +47,7 @@ website:
         - resources/whatisds.qmd
         - resources/books_and_papers.qmd
         - resources/distancelist.qmd
-        - resources/dbib.html
+        - resources/bibliography/dbib.qmd
       
     - id: history
       title: "History"    

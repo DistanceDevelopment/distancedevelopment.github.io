@@ -245,7 +245,7 @@
     "href": "history/distancesponsors.html",
     "title": "Sponsors",
     "section": "",
-    "text": "The following organizations have provided support for Distance software. If you are interested in helping to support distance, or funding development of specific features, please contact us.\n\n\n\nWildlife Conservation Society for 3 years was the major sponsor of Distance, providing funding to enable ongoing support and development of the software. \n\n\n\n\nIn addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\n[Colorado Cooperative Fish and Wildlife Research Unit](https://www.coopunits.org/Colorado/\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council",
+    "text": "The following organizations have provided support for Distance software. If you are interested in helping to support distance, or funding development of specific features, please contact us.\n\n\n\nWildlife Conservation Society for 3 years was the major sponsor of Distance, providing funding to enable ongoing support and development of the software.\n\n\n\n\nIn addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\nColorado Cooperative Fish and Wildlife Research Unit\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council",
     "crumbs": [
       "Sponsors"
     ]
@@ -265,7 +265,7 @@
     "href": "history/distancesponsors.html#features-sponsors",
     "title": "Sponsors",
     "section": "",
-    "text": "In addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\n[Colorado Cooperative Fish and Wildlife Research Unit](https://www.coopunits.org/Colorado/\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council",
+    "text": "In addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\nColorado Cooperative Fish and Wildlife Research Unit\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council",
     "crumbs": [
       "Sponsors"
     ]
@@ -424,5 +424,25 @@
     "title": "Software acquisition",
     "section": "R packages",
     "text": "R packages\n\nDistance\n\nGithub \n\nmrds\n\nGithub \n\ndssd\n\nGithub \n\ndsims\n\nGithub"
+  },
+  {
+    "objectID": "resources/bibliography/dbib.html",
+    "href": "resources/bibliography/dbib.html",
+    "title": "Curated bibliography of distance sampling publications",
+    "section": "",
+    "text": "Below please find &gt;1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.\nPlease contact Tiago Marques (tiago.marques@st-andrews.ac.uk) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.",
+    "crumbs": [
+      "Curated bibliography of distance sampling publications"
+    ]
+  },
+  {
+    "objectID": "resources/bibliography/dbib.html#distance-sampling-applications-and-theory",
+    "href": "resources/bibliography/dbib.html#distance-sampling-applications-and-theory",
+    "title": "Curated bibliography of distance sampling publications",
+    "section": "",
+    "text": "Below please find &gt;1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.\nPlease contact Tiago Marques (tiago.marques@st-andrews.ac.uk) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.",
+    "crumbs": [
+      "Curated bibliography of distance sampling publications"
+    ]
   }
 ]

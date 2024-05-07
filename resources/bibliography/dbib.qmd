@@ -1,0 +1,18 @@
+---
+title: "Curated bibliography of distance sampling publications"
+format: html
+csl: ../../apa.csl
+bibliography: newyear2023.bib
+nocite: |
+  @*
+---
+
+## Distance sampling applications and theory
+
+Below please find >1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.
+
+
+Please contact Tiago Marques (`tiago.marques@st-andrews.ac.uk`) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.
+
+
+## References
