@@ -7,16 +7,16 @@ listing:
     - posts
     - posts/oldsite/.qmd
   sort: "date desc"
-  type: default
-  page-size: 5
+  type: grid
+  page-size: 3
   date-format: "DD MMM YYYY"
 ---
 
-![Photo by Matthew Fainman on Unsplash](matthew-fainman-MLxEmi1Fk8A-unsplash.jpg){width="100%"}
+![Photo by Matthew Fainman on Unsplash](matthew-fainman-MLxEmi1Fk8A-unsplash.jpg){width="70%"}
 
 ## Recent news
 
-Welcome to the home of software and insights regarding distance sampling hosted by the Centre for Research into Ecological and Environmental Modelling at the University of St Andrews.
+Welcome to the home of software and insights regarding distance sampling hosted by the [Centre for Research into Ecological and Environmental Modelling](https://www.creem.st-andrews.ac.uk/) at the [University of St Andrews](https://www.st-andrews.ac.uk/).
 
 ::: {#sample-listings}
 :::
