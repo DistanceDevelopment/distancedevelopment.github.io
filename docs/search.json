@@ -2,16 +2,16 @@
   {
     "objectID": "training.html",
     "href": "training.html",
-    "title": "Training",
+    "title": "Training in distance sampling methods",
     "section": "",
-    "text": "Training\n\nworkshops\ncase studies"
+    "text": "Our training in design and analysis of distance sampling surveys take two forms:\n\nGuided training workshops\n\noffered online via Microsoft Teams or Zoom\n\n\n\n\n\n\n\nCurrent offerings\n\n\n\n\n\n\nCamera trap distance sampling 27-31 May 2024\n\nRegistration is now open; follow this link to register. Registration closes on 15th May or when the workshop is full, whichever occurs first\n\nIntroductory distance sampling\n\nLikely offered in October 2024 (registration opening in August)\n\n\n\n\n\nEmail us if you are interested in workshops on introduction to distance sampling or practical design and simulation.\n\n\nAsynchronous introductory workshops\n\nlectures and practical exercise are available online to investigate and review at your own pace.\nmaterials were completely revised in 2024 and cover the following\n\nline and point transects\nassessing and improving precision of abundance estimates\nintroductory survey design\nstratification and use of covariates in detection function models\nindirect surveys and multipliers\nanimals that occur in groups\ndouble observer methods (for estimating detection probability on the line (\\(\\widehat{g(0)}\\)))\napplying appropriate field methods"
   },
   {
     "objectID": "software/Rpackages.html",
     "href": "software/Rpackages.html",
     "title": "R packages",
     "section": "",
-    "text": "A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See Miller et al. (2019) for more information on methods and https://examples.distancesampling.org/ for example analyses.\n\n\nDistance CRAN site\n\nGithub repository for Distance",
+    "text": "A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See Miller et al. (2019) for more information on methods and https://examples.distancesampling.org/ Will change to pkgdown site when activated for example analyses.\n\n\nDistance CRAN site\n\nGithub repository for Distance",
     "crumbs": [
       "R packages"
     ]
@@ -21,7 +21,7 @@
     "href": "software/Rpackages.html#distance-sampling-detection-function-and-abundance-estimation",
     "title": "R packages",
     "section": "",
-    "text": "A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See Miller et al. (2019) for more information on methods and https://examples.distancesampling.org/ for example analyses.\n\n\nDistance CRAN site\n\nGithub repository for Distance",
+    "text": "A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See Miller et al. (2019) for more information on methods and https://examples.distancesampling.org/ Will change to pkgdown site when activated for example analyses.\n\n\nDistance CRAN site\n\nGithub repository for Distance",
     "crumbs": [
       "R packages"
     ]
@@ -31,7 +31,7 @@
     "href": "software/Rpackages.html#mark-recapture-distance-sampling",
     "title": "R packages",
     "section": "Mark-Recapture Distance Sampling",
-    "text": "Mark-Recapture Distance Sampling\n\nAnimal abundance estimation via conventional, multiple covariate and mark-recapture distance sampling (CDS/MCDS/MRDS). Detection function fitting is performed via maximum likelihood. Also included are diagnostics and plotting for fitted detection functions. Abundance estimation is via a Horvitz-Thompson-like estimator. Originally described in Laake & Borchers (2004)\n\n\nmrds CRAN site\n\nGithub repository for mrds",
+    "text": "Mark-Recapture Distance Sampling\n\nAnimal abundance estimation via conventional, multiple covariate and mark-recapture distance sampling (CDS/MCDS/MRDS). Detection function fitting is performed via maximum likelihood. Also included are diagnostics and plotting for fitted detection functions. Abundance estimation is via a Horvitz-Thompson-like estimator. Originally described in Laake & Borchers (2004)\n\n\npkgdown mrds site",
     "crumbs": [
       "R packages"
     ]

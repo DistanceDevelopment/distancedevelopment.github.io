@@ -7,7 +7,7 @@ csl: ../apa.csl
 
 ## Distance Sampling Detection Function and Abundance Estimation
 
-> A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See @millerjss for more information on methods and <https://examples.distancesampling.org/> for example analyses.
+> A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See @millerjss for more information on methods and <https://examples.distancesampling.org/> **Will change to pkgdown site when activated** for example analyses.
 
 - [Distance](https://cran.r-project.org/web/packages/Distance/index.html) CRAN site
   - [Github repository for `Distance` {{<fa brands github>}}](https://github.com/DistanceDevelopment/Distance)
@@ -16,9 +16,7 @@ csl: ../apa.csl
 
 > Animal abundance estimation via conventional, multiple covariate and mark-recapture distance sampling (CDS/MCDS/MRDS). Detection function fitting is performed via maximum likelihood. Also included are diagnostics and plotting for fitted detection functions. Abundance estimation is via a Horvitz-Thompson-like estimator. Originally described in @laake-borchers
 
-- [mrds](https://cran.r-project.org/web/packages/mrds/index.html) CRAN site
-  - [Github repository for `mrds` {{<fa brands github>}}](https://github.com/DistanceDevelopment/mrds)
-
+- [pkgdown `mrds` site](http://distancedevelopment.github.io/mrds/index.html)
 
 ## Distance Sampling Survey Design
 
