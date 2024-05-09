@@ -67,7 +67,10 @@ website:
       estimating population size. Journal of Applied Ecology 47: 5-14. <br>
       DOI: [10.1111/j.1365-2664.2009.01737.x](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2009.01737.x)
     center: |
-      **Contact us via email** <br>[distance@st-andrews.ac.uk](mailto:distance@st-andrews.ac.uk)
+      **Contact us via email** <br>[distance@st-andrews.ac.uk](mailto:distance@st-andrews.ac.uk) <br>
+      We improve our site and software support by using Microsoft Clarity to see <br>
+      how you use our website. By using our site, you agree that we and Microsoft <br>
+      can collect and use this data. Clarity is GDPR compliant.
     right: |
       **Distance R package citation:** <br>
       Miller, D.L., Rexstad, E., Thomas, L., Marshall, L., <br>
