@@ -107,20 +107,43 @@
     ]
   },
   {
-    "objectID": "resources/resourcesland.html",
-    "href": "resources/resourcesland.html",
-    "title": "Resources",
+    "objectID": "resources/distancelist.html",
+    "href": "resources/distancelist.html",
+    "title": "E-mail list",
     "section": "",
-    "text": "Additional resources\n\nCitation for software\nWhat is distance sampling?\nBooks and papers\nDistance sampling bibliography\nEmail list"
+    "text": "This list is for researchers and practitioners interested in the estimation of wildlife abundance using distance sampling techniques (e.g., line transects, point transects (VCPs), cue counts, etc). Discussions include survey design, analysis methods, software tools, problems and new developments.\nThe purpose of the list is to promote the sharing of ideas and information among researchers and practitioners interested in distance sampling techniques. Suitable topics for discussion include:\n\nquestions about survey design and analysis\nnew methodological developments\nuse of software tools (program Distance and other software)\nnews about up-coming meetings, workshops and conferences where distance methods will be discussed\njobs related to distance sampling\n\n\n\nA Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.\n\n\n\nPrevious to June 2014, the list was hosted on the JISC webpages. Old messages have been uploaded onto the Google Group, but you can still access the old list at the list’s home page http://www.jiscmail.ac.uk/lists/distance-sampling.html.",
+    "crumbs": [
+      "E-mail list"
+    ]
   },
   {
-    "objectID": "resources/citations.html",
-    "href": "resources/citations.html",
-    "title": "Citations for distance sampling software",
+    "objectID": "resources/distancelist.html#joining-the-list",
+    "href": "resources/distancelist.html#joining-the-list",
+    "title": "E-mail list",
     "section": "",
-    "text": "Distance for Windows preferred citation\n\n\n\n\n\n\nThomas, L., S.T. Buckland, E.A. Rexstad, J. L. Laake, S. Strindberg, S. L. Hedley, J. R.B. Bishop, T. A. Marques, and K. P. Burnham. 2010. Distance software: design and analysis of distance sampling surveys for estimating population size. Journal of Applied Ecology 47: 5-14. DOI: 10.1111/j.1365-2664.2009.01737.x\n\n\n\n\n\n\n\n\n\n\n\nDistance R package preferred citation\n\n\n\n\n\n\nMiller, D. L., Rexstad, E., Thomas, L., Marshall, L., & Laake, J. L. (2019). Distance Sampling in R. Journal of Statistical Software, 89(1), 1–28. DOI: 10.18637/jss.v089.i01",
+    "text": "A Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.",
     "crumbs": [
-      "Citations for distance sampling software"
+      "E-mail list"
+    ]
+  },
+  {
+    "objectID": "resources/distancelist.html#the-old-listserver",
+    "href": "resources/distancelist.html#the-old-listserver",
+    "title": "E-mail list",
+    "section": "",
+    "text": "Previous to June 2014, the list was hosted on the JISC webpages. Old messages have been uploaded onto the Google Group, but you can still access the old list at the list’s home page http://www.jiscmail.ac.uk/lists/distance-sampling.html.",
+    "crumbs": [
+      "E-mail list"
+    ]
+  },
+  {
+    "objectID": "resources/books_and_papers.html",
+    "href": "resources/books_and_papers.html",
+    "title": "Books and papers",
+    "section": "",
+    "text": "Books\nThe core concepts of distance sampling analysis are described in:\n\nBuckland, S.T., Anderson, D.R., Burnham, K.P., Laake, J.L., Borchers, D.L. and Thomas, L. 2001. Introduction to Distance Sampling: Estimating Abundance of Biological Populations. Oxford University Press, Oxford, UK.\n\nThe previous edition of this book, published in 1993 is available online for free:\n\nBuckland, S.T., Anderson, D.R., Burnham, K.P. and Laake, J.L. 1993. Distance Sampling: Estimating Abundance of Biological Populations. Chapman and Hall, London.\n\nAdvanced topics in distance sampling analysis are described in:\n\nBuckland, S.T., Anderson, D.R., Burnham, K.P., Laake, J.L., Borchers, D.L. and Thomas, L. (Editors) 2004. Advanced Distance Sampling. Oxford University Press, Oxford, UK.\n\nA book discussing practical considerations, along with developments in the decade 2004-2014 can be found in the recent book:\n\nBuckland, S.T., Rexstad, E., Marques, T.A. and Oedekoven, C.S. 2015. Distance Sampling: Methods and Applications. Springer, Heidelberg. Accompanying website with case studies.\n\n\n\nPapers\nAn introductory article is available here:\n\nMarques, T.A., S.T. Buckland, D.L. Borchers, E. Rexstad and L. Thomas. 2011. Distance sampling. Pp 398-400 in Lovric, M. (Ed.), International Encyclopedia of Statistical Science, Springer-Verlag, Berlin. DOI: 10.1007/978-3-642-04898-2_214\n\nAdditionally, the Open Access paper:\n\nThomas, L., S.T. Buckland, E.A. Rexstad, J. L. Laake, S. Strindberg, S. L. Hedley, J. R.B. Bishop, T. A. Marques, and K. P. Burnham. 2010. Distance software: design and analysis of distance sampling surveys for estimating population size. Journal of Applied Ecology 47: 5-14. DOI: 10.1111/j.1365-2664.2009.01737.x\n\nis the default citation for Distance for Windows.",
+    "crumbs": [
+      "Books and papers"
     ]
   },
   {
@@ -334,43 +357,33 @@
     "text": "Full list of changes and updates:\n\nmrds\nChanges in version 2.3.0 (submitted to on CRAN 18/12/2023)\n\nThe ‘P2’ estimator is now the default for estimating the encouter rate variance for point transect surveys. (Issue #65) https://github.com/DistanceDevelopment/mrds/issues/65\nRe-formatted the format section of the documentation for the book.tee.data (Issue #91) https://github.com/DistanceDevelopment/mrds/issues/91\nEnsure that the MCDS optimizer is not used for double observer models as this was generating errors. (Issue #89) https://github.com/DistanceDevelopment/mrds/issues/89\nImproved the documentation on initial values, lower and upper bounds in both the ddf and mrds_opt documentation (mrds_opt was renamed from mrds-opt which was not accessible via ?mrds-opt). (Issue #90) https://github.com/DistanceDevelopment/mrds/issues/90\n\n\n\nDistance\nChanges in version 1.0.9 (accepted to CRAN 21/12/2023)\n\nChanged the default encounter rate estimator for point transect surveys from P3 to P2. (Issue #138) https://github.com/DistanceDevelopment/Distance/issues/138\nFixed bug which produced NA’s when stratum names came after ‘Total’ in the alphabet. (Issue #158) https://github.com/DistanceDevelopment/Distance/issues/158\nAdded additional documentation explaining the adjustment term options when covariates are in the model. (Issue #156) https://github.com/DistanceDevelopment/Distance/issues/156\nFixed dht bootstrap to work when distbegin and distend are supplied but not distance. (Issue #147) https://github.com/DistanceDevelopment/Distance/issues/147\nAdded a warning for the dht bootstrap when Sample.Label values are not unique across all strata. (Issue #157) https://github.com/DistanceDevelopment/Distance/issues/157\nDistance 1.0.9 depends on mrds &gt;= 2.3.0 due to re-named documentation page links."
   },
   {
-    "objectID": "resources/books_and_papers.html",
-    "href": "resources/books_and_papers.html",
-    "title": "Books and papers",
+    "objectID": "resources/bibliography/dbib.html",
+    "href": "resources/bibliography/dbib.html",
+    "title": "Curated bibliography of distance sampling publications",
     "section": "",
-    "text": "Books\nThe core concepts of distance sampling analysis are described in:\n\nBuckland, S.T., Anderson, D.R., Burnham, K.P., Laake, J.L., Borchers, D.L. and Thomas, L. 2001. Introduction to Distance Sampling: Estimating Abundance of Biological Populations. Oxford University Press, Oxford, UK.\n\nThe previous edition of this book, published in 1993 is available online for free:\n\nBuckland, S.T., Anderson, D.R., Burnham, K.P. and Laake, J.L. 1993. Distance Sampling: Estimating Abundance of Biological Populations. Chapman and Hall, London.\n\nAdvanced topics in distance sampling analysis are described in:\n\nBuckland, S.T., Anderson, D.R., Burnham, K.P., Laake, J.L., Borchers, D.L. and Thomas, L. (Editors) 2004. Advanced Distance Sampling. Oxford University Press, Oxford, UK.\n\nA book discussing practical considerations, along with developments in the decade 2004-2014 can be found in the recent book:\n\nBuckland, S.T., Rexstad, E., Marques, T.A. and Oedekoven, C.S. 2015. Distance Sampling: Methods and Applications. Springer, Heidelberg. Accompanying website with case studies.\n\n\n\nPapers\nAn introductory article is available here:\n\nMarques, T.A., S.T. Buckland, D.L. Borchers, E. Rexstad and L. Thomas. 2011. Distance sampling. Pp 398-400 in Lovric, M. (Ed.), International Encyclopedia of Statistical Science, Springer-Verlag, Berlin. DOI: 10.1007/978-3-642-04898-2_214\n\nAdditionally, the Open Access paper:\n\nThomas, L., S.T. Buckland, E.A. Rexstad, J. L. Laake, S. Strindberg, S. L. Hedley, J. R.B. Bishop, T. A. Marques, and K. P. Burnham. 2010. Distance software: design and analysis of distance sampling surveys for estimating population size. Journal of Applied Ecology 47: 5-14. DOI: 10.1111/j.1365-2664.2009.01737.x\n\nis the default citation for Distance for Windows.",
+    "text": "Below please find &gt;1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.\nPlease contact Tiago Marques (tiago.marques@st-andrews.ac.uk) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.",
     "crumbs": [
-      "Books and papers"
+      "Curated bibliography of distance sampling publications"
     ]
   },
   {
-    "objectID": "resources/distancelist.html",
-    "href": "resources/distancelist.html",
-    "title": "E-mail list",
+    "objectID": "resources/bibliography/dbib.html#distance-sampling-applications-and-theory",
+    "href": "resources/bibliography/dbib.html#distance-sampling-applications-and-theory",
+    "title": "Curated bibliography of distance sampling publications",
     "section": "",
-    "text": "This list is for researchers and practitioners interested in the estimation of wildlife abundance using distance sampling techniques (e.g., line transects, point transects (VCPs), cue counts, etc). Discussions include survey design, analysis methods, software tools, problems and new developments.\nThe purpose of the list is to promote the sharing of ideas and information among researchers and practitioners interested in distance sampling techniques. Suitable topics for discussion include:\n\nquestions about survey design and analysis\nnew methodological developments\nuse of software tools (program Distance and other software)\nnews about up-coming meetings, workshops and conferences where distance methods will be discussed\njobs related to distance sampling\n\n\n\nA Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.\n\n\n\nPrevious to June 2014, the list was hosted on the JISC webpages. Old messages have been uploaded onto the Google Group, but you can still access the old list at the list’s home page http://www.jiscmail.ac.uk/lists/distance-sampling.html.",
+    "text": "Below please find &gt;1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.\nPlease contact Tiago Marques (tiago.marques@st-andrews.ac.uk) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.",
     "crumbs": [
-      "E-mail list"
+      "Curated bibliography of distance sampling publications"
     ]
   },
   {
-    "objectID": "resources/distancelist.html#joining-the-list",
-    "href": "resources/distancelist.html#joining-the-list",
-    "title": "E-mail list",
+    "objectID": "resources/citations.html",
+    "href": "resources/citations.html",
+    "title": "Citations for distance sampling software",
     "section": "",
-    "text": "A Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.",
+    "text": "Distance for Windows preferred citation\n\n\n\n\n\n\nThomas, L., S.T. Buckland, E.A. Rexstad, J. L. Laake, S. Strindberg, S. L. Hedley, J. R.B. Bishop, T. A. Marques, and K. P. Burnham. 2010. Distance software: design and analysis of distance sampling surveys for estimating population size. Journal of Applied Ecology 47: 5-14. DOI: 10.1111/j.1365-2664.2009.01737.x\n\n\n\n\n\n\n\n\n\n\n\nDistance R package preferred citation\n\n\n\n\n\n\nMiller, D. L., Rexstad, E., Thomas, L., Marshall, L., & Laake, J. L. (2019). Distance Sampling in R. Journal of Statistical Software, 89(1), 1–28. DOI: 10.18637/jss.v089.i01",
     "crumbs": [
-      "E-mail list"
-    ]
-  },
-  {
-    "objectID": "resources/distancelist.html#the-old-listserver",
-    "href": "resources/distancelist.html#the-old-listserver",
-    "title": "E-mail list",
-    "section": "",
-    "text": "Previous to June 2014, the list was hosted on the JISC webpages. Old messages have been uploaded onto the Google Group, but you can still access the old list at the list’s home page http://www.jiscmail.ac.uk/lists/distance-sampling.html.",
-    "crumbs": [
-      "E-mail list"
+      "Citations for distance sampling software"
     ]
   },
   {
@@ -424,25 +437,5 @@
     "title": "Software acquisition",
     "section": "R packages",
     "text": "R packages\n\nDistance\n\nGithub \n\nmrds\n\nGithub \n\ndssd\n\nGithub \n\ndsims\n\nGithub"
-  },
-  {
-    "objectID": "resources/bibliography/dbib.html",
-    "href": "resources/bibliography/dbib.html",
-    "title": "Curated bibliography of distance sampling publications",
-    "section": "",
-    "text": "Below please find &gt;1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.\nPlease contact Tiago Marques (tiago.marques@st-andrews.ac.uk) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.",
-    "crumbs": [
-      "Curated bibliography of distance sampling publications"
-    ]
-  },
-  {
-    "objectID": "resources/bibliography/dbib.html#distance-sampling-applications-and-theory",
-    "href": "resources/bibliography/dbib.html#distance-sampling-applications-and-theory",
-    "title": "Curated bibliography of distance sampling publications",
-    "section": "",
-    "text": "Below please find &gt;1500 citations to scientific publications relevant to distance sampling. Many are applications of distance sampling to estimate animal abundance; some are papers describing the development of statistical methods relevant to distance sampling.\nPlease contact Tiago Marques (tiago.marques@st-andrews.ac.uk) for adding, removing, or correcting entries. Also very welcome are links to existing or to new references.",
-    "crumbs": [
-      "Curated bibliography of distance sampling publications"
-    ]
   }
 ]
