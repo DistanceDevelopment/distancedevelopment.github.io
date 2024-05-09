@@ -84,6 +84,8 @@ format:
     css: styles.css
     mainfont: sans-serif
     toc: true
+    include-in-header: 
+      - file: clarity.text
 
 
 
