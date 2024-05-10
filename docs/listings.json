@@ -24,5 +24,31 @@
       "/posts/oldsite/2022-09-07-distwin-release.html",
       "/posts/oldsite/2022-06-06-distwin-plans.html"
     ]
+  },
+  {
+    "listing": "/resources/vignettes.html",
+    "items": [
+      "/case_studies/Distance_indirectsurveys.html",
+      "/case_studies/Distance_ctds.html",
+      "/case_studies/Distance-cuecounts.html",
+      "/case_studies/mrds_doubleobserver.html",
+      "/case_studies/Distance_lines.html",
+      "/case_studies/Distance_points.html",
+      "/case_studies/Distance_stratification.html",
+      "/case_studies/dsims_truncation.html",
+      "/case_studies/Distance_sizebias.html",
+      "/case_studies/dsm_gomex.html",
+      "/case_studies/dsm_points.html",
+      "/case_studies/Distance_covariates.html",
+      "/case_studies/Distance-multispecies.html",
+      "/case_studies/dsims_gettingstarted.html",
+      "/case_studies/dssd_start.html",
+      "/case_studies/Distance_differences.html",
+      "/case_studies/dssd_multiple.html",
+      "/case_studies/dsims_grouped.html",
+      "/case_studies/Distance_altoptim.html",
+      "/case_studies/Distance_caution.html",
+      "/case_studies/Distance_variance.html"
+    ]
   }
 ]

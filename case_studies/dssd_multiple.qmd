@@ -1,0 +1,10 @@
+---
+title: "Multiple strata in `dssd`"
+description: "An example of how to create a design in dssd that contains multiple strata, with different design characteristics in each stratum."
+date: 04-17-2024
+categories: [line transect, design, dssd, stratification] # self-defined categories
+image: ETP.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+[Stratified survey design](https://distancedevelopment.github.io/dssd/articles/MultiStrataVignette.html)

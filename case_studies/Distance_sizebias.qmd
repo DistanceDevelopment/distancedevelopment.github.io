@@ -1,0 +1,10 @@
+---
+title: "Combating the effects of size bias"
+description: "Because of the detection process, average group size in sample is a positively biased estimate of average group size in population. This bias can be compensated by employing group size as a covariate in the detection function."
+date: 04-17-2024
+categories: [group size, analysis] # self-defined categories
+image: ETP.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+[Combating the effects of size bias](https://distancedevelopment.github.io/Distance/articles/web-only/groupsize/Remedy-size-bias-for-dolphin-surveys.html)

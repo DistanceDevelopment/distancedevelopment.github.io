@@ -48,6 +48,7 @@ website:
         - resources/books_and_papers.qmd
         - resources/distancelist.qmd
         - resources/bibliography/dbib.qmd
+        - resources/vignettes.qmd
       
     - id: history
       title: "History"    
@@ -61,15 +62,17 @@ website:
     background: light
     left: |
       **Distance for Windows citation:** <br>
-      Thomas, L., S.T. Buckland, E.A. Rexstad, J.L. Laake, S. Strindberg, <br>
-      S.L. Hedley, J.R.B. Bishop, T.A. Marques, and K.P. Burnham. 2010. <br>
-      Distance software: design and analysis of distance sampling surveys for <br>
-      estimating population size. Journal of Applied Ecology 47: 5-14. <br>
+      Thomas, L., S.T. Buckland, E.A. Rexstad, J.L. Laake, <br>
+      S. Strindberg,S.L. Hedley, J.R.B. Bishop, T.A. Marques, <br>
+      and K.P. Burnham. 2010. Distance software: design and <br>
+      analysis of distance sampling surveys for estimating <br>
+      population size. Journal of Applied Ecology 47: 5-14. <br>
       DOI: [10.1111/j.1365-2664.2009.01737.x](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2009.01737.x)
     center: |
       **Contact us via email** <br>[distance@st-andrews.ac.uk](mailto:distance@st-andrews.ac.uk) <br>
-      We improve our site and software support by using Microsoft Clarity to see <br>
-      how you use our website. By using our site, you agree that we and Microsoft <br>
+      We improve our site and software support by using <br>
+      Microsoft Clarity to see how you use our website. <br>
+      By using our site, you agree that we and Microsoft <br>
       can collect and use this data. Clarity is GDPR compliant.
     right: |
       **Distance R package citation:** <br>

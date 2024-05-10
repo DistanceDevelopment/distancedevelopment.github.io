@@ -1,0 +1,10 @@
+---
+title: "Getting started with `dssd`"
+description: "Create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and average transect lengths. The example uses a parallel line transects; other designs available in the dssd package follow from this example."
+date: 04-17-2024
+categories: [line transect, design, dssd] # self-defined categories
+image: ETP.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+[Getting started with `dssd`](https://distancedevelopment.github.io/dssd/articles/GettingStarted.html)

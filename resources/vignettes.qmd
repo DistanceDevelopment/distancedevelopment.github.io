@@ -1,0 +1,32 @@
+---
+title: Case studies
+listing: 
+  - id: studies
+    contents: "../case_studies/*.qmd"
+    type: default
+    fields: [image, title, description, categories]
+---
+
+Over time we have developed a number of examples, or case studies to help users experience how to use the R packages we have developed to perform a number of common tasks. Feel free to use the code provided as templates forming the starting point for your own analysis.
+
+Buttons (e.g. `Line transect`) can be clicked to filter the examples. Reload the page to remove filter.
+
+::: {#studies}
+:::
+
+
+:::: columns
+::: {.column width="60%"}
+
+In addition to these, there are several more case studies not associated with specific R packages. Those case studies can be found at the website associated with the book [Buckland et al. (2015)](https://www.creem.st-andrews.ac.uk/software/ds-manda/)
+
+:::
+
+::: {.column width="40%"}
+
+![Buckland et al. (2015)](../images/buckland2015.png)
+
+:::
+::::
+
+

@@ -1,0 +1,10 @@
+---
+title: "Take care when subsetting flatfiles by species"
+description: "Adding additional information to flatfiles when subsetting analysis by species"
+date: 04-17-2024
+categories: [multi-species, line transects, analysis] # self-defined categories
+image: ETP.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+[Take care when subsetting flatfiles by species](https://distancedevelopment.github.io/dsims/articles/dsims-examples.html)
