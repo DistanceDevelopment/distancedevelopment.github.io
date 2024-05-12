@@ -7,4 +7,4 @@ image: ETP.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-[Inference regarding differences in density between strata](https://distancedevelopment.github.io/dsims/articles/dsims-examples.html)
+[Inference regarding differences in density between strata](https://distancedevelopment.github.io/Distance/articles/web-only/differences/differences.html)

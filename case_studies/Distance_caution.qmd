@@ -7,4 +7,4 @@ image: ETP.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-[Take care when subsetting flatfiles by species](https://distancedevelopment.github.io/dsims/articles/dsims-examples.html)
+[Take care when subsetting flatfiles by species](https://distancedevelopment.github.io/Distance/articles/web-only/multispecies/multispecies-multioccasion-analysis.html)

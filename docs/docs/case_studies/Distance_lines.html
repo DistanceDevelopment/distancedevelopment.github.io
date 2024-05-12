@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2024-04-17">
-<meta name="description" content="Create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and average transect lengths. The example uses a parallel line transects; other designs available in the dssd package follow from this example.">
+<meta name="description" content="Line transect data of winter wrens in Scotland. An example of model fitting, model selection, goodness of fit assessment. Basic analysis skills required for any distance sampling analysis.">
 
-<title>Getting started with dssd</title>
+<title>Analysis of line transect data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/logo.gif" rel="icon" type="image/gif">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.gif" rel="icon" type="image/gif">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -94,11 +94,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../training.html"> 
+    <a class="nav-link" href="../../training.html"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -107,15 +107,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-software">    
         <li>
-    <a class="dropdown-item" href="../software/downloaddistwin.html">
+    <a class="dropdown-item" href="../../software/downloaddistwin.html">
  <span class="dropdown-text">Distance 7.5 download</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../software/activity.html">
+    <a class="dropdown-item" href="../../software/activity.html">
  <span class="dropdown-text">Activity for CTDS</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../software/Rpackages.html">
+    <a class="dropdown-item" href="../../software/Rpackages.html">
  <span class="dropdown-text">R packages</span></a>
   </li>  
     </ul>
@@ -126,27 +126,27 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="../resources/citations.html">
+    <a class="dropdown-item" href="../../resources/citations.html">
  <span class="dropdown-text">Citations for distance sampling software</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/whatisds.html">
+    <a class="dropdown-item" href="../../resources/whatisds.html">
  <span class="dropdown-text">What is distance sampling?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/books_and_papers.html">
+    <a class="dropdown-item" href="../../resources/books_and_papers.html">
  <span class="dropdown-text">Books and papers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/distancelist.html">
+    <a class="dropdown-item" href="../../resources/distancelist.html">
  <span class="dropdown-text">E-mail list</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/bibliography/dbib.html">
+    <a class="dropdown-item" href="../../resources/bibliography/dbib.html">
  <span class="dropdown-text">Curated bibliography of distance sampling publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../resources/vignettes.html">
+    <a class="dropdown-item" href="../../resources/vignettes.html">
  <span class="dropdown-text">Case studies</span></a>
   </li>  
     </ul>
@@ -157,21 +157,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-history">    
         <li>
-    <a class="dropdown-item" href="../history/authors.html">
+    <a class="dropdown-item" href="../../history/authors.html">
  <span class="dropdown-text">Authors</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../history/distancesponsors.html">
+    <a class="dropdown-item" href="../../history/distancesponsors.html">
  <span class="dropdown-text">Sponsors</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../history/distancehistory.html">
+    <a class="dropdown-item" href="../../history/distancehistory.html">
  <span class="dropdown-text">History</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -226,17 +226,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting started with <code>dssd</code></h1>
+<h1 class="title">Analysis of line transect data</h1>
   <div class="quarto-categories">
     <div class="quarto-category">line transect</div>
-    <div class="quarto-category">design</div>
-    <div class="quarto-category">dssd</div>
+    <div class="quarto-category">songbirds</div>
+    <div class="quarto-category">analysis</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and average transect lengths. The example uses a parallel line transects; other designs available in the dssd package follow from this example.
+    Line transect data of winter wrens in Scotland. An example of model fitting, model selection, goodness of fit assessment. Basic analysis skills required for any distance sampling analysis.
   </div>
 </div>
 
@@ -259,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://distancedevelopment.github.io/dssd/articles/GettingStarted.html">Getting started with <code>dssd</code></a></p>
+<p><a href="http://distancedevelopment.github.io/Distance/articles/lines-distill.html">Analysis of line transect data</a></p>
 
 
 
