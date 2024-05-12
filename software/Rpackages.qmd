@@ -50,9 +50,22 @@ Creates survey designs for distance sampling surveys. These designs can be asses
 ::: {.callout-note appearance="minimal"}
 ## Distance Sampling Simulations
 
-Performs distance sampling simulations. 'dsims' repeatedly generates instances of a user defined population within a given survey region. It then generates realisations of a survey design and simulates the detection process. The data are then analysed so that the results can be compared for accuracy and precision across all replications. This process allows users to optimise survey designs for their specific set of survey conditions. The effects of uncertainty in population distribution or parameters can be investigated under a number of simulations so that users can be confident that they have achieved a robust survey design before deploying vessels into the field. The distance sampling designs used in this package from 'dssd' are detailed in @Buckland04. General distance sampling methods are detailed in @Buckland01. Package cited as @dsims.
+Performs distance sampling simulations. 'dsims' repeatedly generates instances of a user defined population within a given survey region. It generates surveys design and simulates the detection process, producing data analysed to produce abundance estimates. This process allows users to optimise survey designs for their specific set of survey conditions. The effects of uncertainty in population distribution or parameters can be investigated under various scenarios. All aspects of a survey and analysis can be examined prior to going into the field. Designs available from 'dssd' are detailed in @Buckland04. General distance sampling methods are detailed in @Buckland01. Package cited as @dsims.
 
 - [`dsims` website](http://distancedevelopment.github.io/dsims/index.html)       
+
+:::
+
+::::
+
+:::: {.g-col-6}
+
+::: {.callout-note appearance="minimal"}
+## Density surface models
+
+This package fits density surface models to spatially-referenced distance sampling data, based on methods developed in @hedley_spatial_2004 and @miller_spatial_2013. Count data are corrected using detection function models fitted using `mrds` or `Distance`. Spatial models are constructed using generalized additive models.
+
+- [`dsm` website](http://distancedevelopment.github.io/dsm/index.html)       
 
 :::
 

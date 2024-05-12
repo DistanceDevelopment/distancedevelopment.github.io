@@ -163,6 +163,10 @@ div.csl-indent {
     <a class="dropdown-item" href="../resources/bibliography/dbib.html">
  <span class="dropdown-text">Curated bibliography of distance sampling publications</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/vignettes.html">
+ <span class="dropdown-text">Case studies</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -358,9 +362,27 @@ Distance Sampling Simulations
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Performs distance sampling simulations. ‘dsims’ repeatedly generates instances of a user defined population within a given survey region. It then generates realisations of a survey design and simulates the detection process. The data are then analysed so that the results can be compared for accuracy and precision across all replications. This process allows users to optimise survey designs for their specific set of survey conditions. The effects of uncertainty in population distribution or parameters can be investigated under a number of simulations so that users can be confident that they have achieved a robust survey design before deploying vessels into the field. The distance sampling designs used in this package from ‘dssd’ are detailed in <span class="citation" data-cites="Buckland04">Buckland et al. (<a href="#ref-Buckland04" role="doc-biblioref">2004</a>)</span>. General distance sampling methods are detailed in <span class="citation" data-cites="Buckland01">Buckland et al. (<a href="#ref-Buckland01" role="doc-biblioref">2001</a>)</span>. Package cited as <span class="citation" data-cites="dsims">Marshall (<a href="#ref-dsims" role="doc-biblioref">2023a</a>)</span>.</p>
+<p>Performs distance sampling simulations. ‘dsims’ repeatedly generates instances of a user defined population within a given survey region. It generates surveys design and simulates the detection process, producing data analysed to produce abundance estimates. This process allows users to optimise survey designs for their specific set of survey conditions. The effects of uncertainty in population distribution or parameters can be investigated under various scenarios. All aspects of a survey and analysis can be examined prior to going into the field. Designs available from ‘dssd’ are detailed in <span class="citation" data-cites="Buckland04">Buckland et al. (<a href="#ref-Buckland04" role="doc-biblioref">2004</a>)</span>. General distance sampling methods are detailed in <span class="citation" data-cites="Buckland01">Buckland et al. (<a href="#ref-Buckland01" role="doc-biblioref">2001</a>)</span>. Package cited as <span class="citation" data-cites="dsims">Marshall (<a href="#ref-dsims" role="doc-biblioref">2023a</a>)</span>.</p>
 <ul>
 <li><a href="http://distancedevelopment.github.io/dsims/index.html"><code>dsims</code> website</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="g-col-6">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Density surface models
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This package fits density surface models to spatially-referenced distance sampling data, based on methods developed in <span class="citation" data-cites="hedley_spatial_2004">Hedley &amp; Buckland (<a href="#ref-hedley_spatial_2004" role="doc-biblioref">2004</a>)</span> and <span class="citation" data-cites="miller_spatial_2013">Miller et al. (<a href="#ref-miller_spatial_2013" role="doc-biblioref">2013</a>)</span>. Count data are corrected using detection function models fitted using <code>mrds</code> or <code>Distance</code>. Spatial models are constructed using generalized additive models.</p>
+<ul>
+<li><a href="http://distancedevelopment.github.io/dsm/index.html"><code>dsm</code> website</a></li>
 </ul>
 </div>
 </div>
@@ -377,6 +399,9 @@ Buckland, S. T., Anderson, D. R., Burnham, K. P., Laake, J. L., Borchers, D. L.,
 <div id="ref-Buckland04" class="csl-entry" role="listitem">
 Buckland, S. T., Anderson, D. R., Burnham, K. P., Laake, J. L., Borchers, D. L., &amp; Thomas, L. (2004). <em>Advanced distance sampling</em>. Oxford University Press.
 </div>
+<div id="ref-hedley_spatial_2004" class="csl-entry" role="listitem">
+Hedley, S. L., &amp; Buckland, S. T. (2004). Spatial models for line transect sampling. <em>Journal of Agricultural, Biological, and Environmental Statistics</em>, <em>9</em>(2), 181–199. <a href="https://doi.org/10.1198/1085711043578">https://doi.org/10.1198/1085711043578</a>
+</div>
 <div id="ref-laake-borchers" class="csl-entry" role="listitem">
 Laake, J. L., &amp; Borchers, D. L. (2004). Methods for incomplete detection at distance zero. In <em>Advanced distance sampling</em> (pp. 108–189). Oxford University Press.
 </div>
@@ -385,6 +410,9 @@ Marshall, L. (2023a). <em>Dsims: Distance sampling simulations</em>. Retrieved f
 </div>
 <div id="ref-dssd" class="csl-entry" role="listitem">
 Marshall, L. (2023b). <em>Dssd: Distance sampling survey design</em>. Retrieved from <a href="https://CRAN.R-project.org/package=dssd">https://CRAN.R-project.org/package=dssd</a>
+</div>
+<div id="ref-miller_spatial_2013" class="csl-entry" role="listitem">
+Miller, D. L., Burt, M. L., Rexstad, E. A., &amp; Thomas, L. (2013). Spatial models for distance sampling data: Recent developments and future directions. <em>Methods in Ecology and Evolution</em>, <em>4</em>(11), 1001–1010. <a href="https://doi.org/10.1111/2041-210X.12105">https://doi.org/10.1111/2041-210X.12105</a>
 </div>
 <div id="ref-millerjss" class="csl-entry" role="listitem">
 Miller, D. L., Rexstad, E., Thomas, L., Marshall, L., &amp; Laake, J. L. (2019). Distance sampling in <span>R</span>. <em>Journal of Statistical Software</em>, <em>89</em>(1), 1–28. <a href="https://doi.org/10.18637/jss.v089.i01">https://doi.org/10.18637/jss.v089.i01</a>
@@ -781,10 +809,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><strong>Distance for Windows citation:</strong> <br> Thomas, L., S.T. Buckland, E.A. Rexstad, J.L. Laake, S. Strindberg, <br> S.L. Hedley, J.R.B. Bishop, T.A. Marques, and K.P. Burnham. 2010. <br> Distance software: design and analysis of distance sampling surveys for <br> estimating population size. Journal of Applied Ecology 47: 5-14. <br> DOI: <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2009.01737.x">10.1111/j.1365-2664.2009.01737.x</a></p>
+<p><strong>Distance for Windows citation:</strong> <br> Thomas, L., S.T. Buckland, E.A. Rexstad, J.L. Laake, <br> S. Strindberg,S.L. Hedley, J.R.B. Bishop, T.A. Marques, <br> and K.P. Burnham. 2010. Distance software: design and <br> analysis of distance sampling surveys for estimating <br> population size. Journal of Applied Ecology 47: 5-14. <br> DOI: <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2009.01737.x">10.1111/j.1365-2664.2009.01737.x</a></p>
 </div>   
     <div class="nav-footer-center">
-<p><strong>Contact us via email</strong> <br><a href="mailto:distance@st-andrews.ac.uk">distance@st-andrews.ac.uk</a> <br> We improve our site and software support by using Microsoft Clarity to see <br> how you use our website. By using our site, you agree that we and Microsoft <br> can collect and use this data. Clarity is GDPR compliant.</p>
+<p><strong>Contact us via email</strong> <br><a href="mailto:distance@st-andrews.ac.uk">distance@st-andrews.ac.uk</a> <br> We improve our site and software support by using <br> Microsoft Clarity to see how you use our website. <br> By using our site, you agree that we and Microsoft <br> can collect and use this data. Clarity is GDPR compliant.</p>
 </div>
     <div class="nav-footer-right">
 <p><strong>Distance R package citation:</strong> <br> Miller, D.L., Rexstad, E., Thomas, L., Marshall, L., <br> and Laake, J.L. (2019). Distance Sampling in R. <br> Journal of Statistical Software, 89(1), 1–28. <br> DOI: <a href="https://doi.org/10.18637/jss.v089.i01">10.18637/jss.v089.i01</a> <br></p>
