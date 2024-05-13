@@ -7,4 +7,4 @@ image: dsm_dataformat.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-[Density surface model of dolphins](https://distancedevelopment.github.io/dsm/articles/data_format/dsm-data-formatting.html)
+[Data organisation and segmenting of transect effort](https://distancedevelopment.github.io/dsm/articles/data_format/dsm-data-formatting.html)
