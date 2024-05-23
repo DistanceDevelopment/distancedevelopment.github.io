@@ -80,8 +80,9 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -331,7 +332,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(21)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(15)</span></div><div class="category" data-category="bootstrap">bootstrap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="camera traps">camera traps <span class="quarto-category-count">(2)</span></div><div class="category" data-category="covariates">covariates <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cue counts">cue counts <span class="quarto-category-count">(1)</span></div><div class="category" data-category="design">design <span class="quarto-category-count">(3)</span></div><div class="category" data-category="dssd">dssd <span class="quarto-category-count">(3)</span></div><div class="category" data-category="group size">group size <span class="quarto-category-count">(1)</span></div><div class="category" data-category="grouped strata">grouped strata <span class="quarto-category-count">(1)</span></div><div class="category" data-category="inference">inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="line transect">line transect <span class="quarto-category-count">(9)</span></div><div class="category" data-category="line transects">line transects <span class="quarto-category-count">(6)</span></div><div class="category" data-category="mark-recapture distance sampling">mark-recapture distance sampling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multi-species">multi-species <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multipliers">multipliers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="point transect">point transect <span class="quarto-category-count">(1)</span></div><div class="category" data-category="point transects">point transects <span class="quarto-category-count">(3)</span></div><div class="category" data-category="simulation">simulation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="songbirds">songbirds <span class="quarto-category-count">(3)</span></div><div class="category" data-category="spatial model">spatial model <span class="quarto-category-count">(2)</span></div><div class="category" data-category="stratification">stratification <span class="quarto-category-count">(3)</span></div><div class="category" data-category="truncation">truncation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="variance">variance <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -356,21 +357,18 @@ window.Quarto = {
 
 <p>Over time we have developed a number of examples, or case studies to help users experience how to use the R packages we have developed to perform a number of common tasks. Feel free to use the code provided as templates forming the starting point for your own analysis.</p>
 <p>Buttons (e.g.&nbsp;<code>Line transect</code>) can be clicked to filter the examples. Reload the page to remove filter.</p>
-<div id="listing-studies" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="multipliers,line transect,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716467882881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_indirectsurveys.html" class="no-external"></a></p><a href="../case_studies/Distance_indirectsurveys.html" class="no-external">
-<p><img src="../case_studies/distance_indirect.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_indirectsurveys.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_indirectsurveys.html" class="no-external">Analysing indirect surveys</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_indirectsurveys.html" class="no-external"></a>
-</div>
+<div id="listing-studies" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="multipliers,line transect,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716467882881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<a href="../case_studies/Distance_indirectsurveys.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_indirect.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysing indirect surveys
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('multipliers'); return false;">
 multipliers
@@ -382,28 +380,23 @@ line transect
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_indirectsurveys.html" class="no-external">Estimation of Sika deer density based upon deer pellet distance sampling data. Includes estimation of decay rate using logistic regression and multiplier based on dung production rates. Using data from Marques et al.&nbsp;(2001).</a>
+<div class="card-text listing-description">
+Estimation of Sika deer density based upon deer pellet distance sampling data. Includes estimation of decay rate using logistic regression and multiplier based on dung…
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_indirectsurveys.html" class="no-external"></a></p><a href="../case_studies/Distance_indirectsurveys.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="camera traps,point transects,analysis" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715353308290" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_ctds.html" class="no-external"></a></p><a href="../case_studies/Distance_ctds.html" class="no-external">
-<p><img src="../case_studies/ETP.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_ctds.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_ctds.html" class="no-external">Analysis of camera trap data using distance sampling</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_ctds.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="1" data-categories="camera traps,point transects,analysis" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715353308290" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<a href="../case_studies/Distance_ctds.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/ETP.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of camera trap data using distance sampling
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('camera traps'); return false;">
 camera traps
@@ -415,28 +408,23 @@ point transects
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_ctds.html" class="no-external">Replicates analyses of duiker data presented by Howe et al.&nbsp;(2017) including model selection methods in presence of overdispersion (Howe et al.&nbsp;2019)</a>
+<div class="card-text listing-description">
+Replicates analyses of duiker data presented by Howe et al.&nbsp;(2017) including model selection methods in presence of overdispersion (Howe et al.&nbsp;2019)
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_ctds.html" class="no-external"></a></p><a href="../case_studies/Distance_ctds.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cue counts,line transect,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468217474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_cuecounts.html" class="no-external"></a></p><a href="../case_studies/Distance_cuecounts.html" class="no-external">
-<p><img src="../case_studies/distance_cuecounts.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_cuecounts.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_cuecounts.html" class="no-external">Analysis of cue count surveys</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_cuecounts.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="2" data-categories="cue counts,line transect,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468217474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/Distance_cuecounts.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_cuecounts.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of cue count surveys
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('cue counts'); return false;">
 cue counts
@@ -448,28 +436,23 @@ line transect
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_cuecounts.html" class="no-external">Cue counting example based on line transect data of winter wrens from Buckland (2006). Incorporating song rate in analysis.</a>
+<div class="card-text listing-description">
+Cue counting example based on line transect data of winter wrens from Buckland (2006). Incorporating song rate in analysis.
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_cuecounts.html" class="no-external"></a></p><a href="../case_studies/Distance_cuecounts.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="mark-recapture distance sampling,line transect,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468353169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/mrds_doubleobserver.html" class="no-external"></a></p><a href="../case_studies/mrds_doubleobserver.html" class="no-external">
-<p><img src="../case_studies/mrds_doubleobserver.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/mrds_doubleobserver.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/mrds_doubleobserver.html" class="no-external">Analysis of double observer data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/mrds_doubleobserver.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="3" data-categories="mark-recapture distance sampling,line transect,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468353169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/mrds_doubleobserver.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/mrds_doubleobserver.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of double observer data
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('mark-recapture distance sampling'); return false;">
 mark-recapture distance sampling
@@ -481,28 +464,23 @@ line transect
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/mrds_doubleobserver.html" class="no-external">Full independence and point independence analysis of golf tee data from multiple observers.</a>
+<div class="card-text listing-description">
+Full independence and point independence analysis of golf tee data from multiple observers.
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/mrds_doubleobserver.html" class="no-external"></a></p><a href="../case_studies/mrds_doubleobserver.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="line transect,songbirds,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470207219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_lines.html" class="no-external"></a></p><a href="../case_studies/Distance_lines.html" class="no-external">
-<p><img src="../case_studies/distance_lines.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_lines.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_lines.html" class="no-external">Analysis of line transect data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_lines.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="4" data-categories="line transect,songbirds,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470207219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/Distance_lines.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_lines.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of line transect data
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('line transect'); return false;">
 line transect
@@ -514,28 +492,23 @@ songbirds
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_lines.html" class="no-external">Line transect data of winter wrens in Scotland. An example of model fitting, model selection, goodness of fit assessment. Basic analysis skills required for any distance sampling analysis.</a>
+<div class="card-text listing-description">
+Line transect data of winter wrens in Scotland. An example of model fitting, model selection, goodness of fit assessment. Basic analysis skills required for any distance…
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_lines.html" class="no-external"></a></p><a href="../case_studies/Distance_lines.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="point transects,songbirds,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468601817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_points.html" class="no-external"></a></p><a href="../case_studies/Distance_points.html" class="no-external">
-<p><img src="../case_studies/distance_points.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_points.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_points.html" class="no-external">Analysis of point transect data</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_points.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="5" data-categories="point transects,songbirds,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468601817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/Distance_points.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_points.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of point transect data
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('point transects'); return false;">
 point transects
@@ -547,28 +520,23 @@ songbirds
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_points.html" class="no-external">Point transect analysis of savannah sparrow data set from Knopf et al.&nbsp;(1988)</a>
+<div class="card-text listing-description">
+Point transect analysis of savannah sparrow data set from Knopf et al.&nbsp;(1988)
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_points.html" class="no-external"></a></p><a href="../case_studies/Distance_points.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="stratification,point transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468798937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_stratification.html" class="no-external"></a></p><a href="../case_studies/Distance_stratification.html" class="no-external">
-<p><img src="../case_studies/distance_stratification.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_stratification.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_stratification.html" class="no-external">Analysis of stratified surveys</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_stratification.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="6" data-categories="stratification,point transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716468798937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="../case_studies/Distance_stratification.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_stratification.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Analysis of stratified surveys
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('stratification'); return false;">
 stratification
@@ -580,28 +548,23 @@ point transects
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_stratification.html" class="no-external">Analysis of stratified survey design, including model selection to determine whether stratum-specific detection functions are necessary. Uses point transect analysis of savannah sparrow data set from Knopf et al.&nbsp;(1988).</a>
+<div class="card-text listing-description">
+Analysis of stratified survey design, including model selection to determine whether stratum-specific detection functions are necessary. Uses point transect analysis of…
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_stratification.html" class="no-external"></a></p><a href="../case_studies/Distance_stratification.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="truncation,line transects,simulation" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470470410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<div class="thumbnail">
-<p><a href="../case_studies/dsims_truncation.html" class="no-external"></a></p><a href="../case_studies/dsims_truncation.html" class="no-external">
-<p><img src="../case_studies/dsims_truncation.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dsims_truncation.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dsims_truncation.html" class="no-external">Assessing analysis decision effects via simulation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dsims_truncation.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="7" data-categories="truncation,line transects,simulation" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470470410" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="../case_studies/dsims_truncation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dsims_truncation.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Assessing analysis decision effects via simulation
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('truncation'); return false;">
 truncation
@@ -613,28 +576,23 @@ line transects
 simulation
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dsims_truncation.html" class="no-external">Simulate distance sampling surveys examining the effect of truncation distance and pooling robustness upon estimates of animal density (when true density is known).</a>
+<div class="card-text listing-description">
+Simulate distance sampling surveys examining the effect of truncation distance and pooling robustness upon estimates of animal density (when true density is known).
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dsims_truncation.html" class="no-external"></a></p><a href="../case_studies/dsims_truncation.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="group size,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716469206794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_sizebias.html" class="no-external"></a></p><a href="../case_studies/Distance_sizebias.html" class="no-external">
-<p><img src="../case_studies/distance_sizebias.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_sizebias.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_sizebias.html" class="no-external">Combating the effects of size bias</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_sizebias.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="8" data-categories="group size,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716469206794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="../case_studies/Distance_sizebias.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_sizebias.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Combating the effects of size bias
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('group size'); return false;">
 group size
@@ -643,28 +601,23 @@ group size
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_sizebias.html" class="no-external">Because of the detection process, average group size in sample is a positively biased estimate of average group size in population. This bias can be compensated by employing group size as a covariate in the detection function.</a>
+<div class="card-text listing-description">
+Because of the detection process, average group size in sample is a positively biased estimate of average group size in population. This bias can be compensated by employing…
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_sizebias.html" class="no-external"></a></p><a href="../case_studies/Distance_sizebias.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="spatial model,line transect,analysis" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715585116161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="../case_studies/dsm_dataformat.html" class="no-external"></a></p><a href="../case_studies/dsm_dataformat.html" class="no-external">
-<p><img src="../case_studies/dsm_dataformat.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dsm_dataformat.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dsm_dataformat.html" class="no-external">Data formatting for <code>dsm</code> analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dsm_dataformat.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="9" data-categories="spatial model,line transect,analysis" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715585116161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="../case_studies/dsm_dataformat.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dsm_dataformat.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data formatting for <code>dsm</code> analysis
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('spatial model'); return false;">
 spatial model
@@ -676,28 +629,23 @@ line transect
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dsm_dataformat.html" class="no-external">Manipulating spatial data with <code>sf</code> to segment effort</a>
+<div class="card-text listing-description">
+Manipulating spatial data with <code>sf</code> to segment effort
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dsm_dataformat.html" class="no-external"></a></p><a href="../case_studies/dsm_dataformat.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="spatial model,line transect,analysis" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715584971961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/dsm_gomex.html" class="no-external"></a></p><a href="../case_studies/dsm_gomex.html" class="no-external">
-<p><img src="../case_studies/dsm_gomex.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dsm_gomex.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dsm_gomex.html" class="no-external">Density surface model of dolphins</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dsm_gomex.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="10" data-categories="spatial model,line transect,analysis" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715584971961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/dsm_gomex.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dsm_gomex.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Density surface model of dolphins
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('spatial model'); return false;">
 spatial model
@@ -709,28 +657,23 @@ line transect
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dsm_gomex.html" class="no-external">Line transect survey of pantropical spotted dolphins in the Gulf of Mexico.</a>
+<div class="card-text listing-description">
+Line transect survey of pantropical spotted dolphins in the Gulf of Mexico.
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dsm_gomex.html" class="no-external"></a></p><a href="../case_studies/dsm_gomex.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="line transect,design,dssd" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715351491623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_covariates.html" class="no-external"></a></p><a href="../case_studies/Distance_covariates.html" class="no-external">
-<p><img src="../case_studies/ETP.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_covariates.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_covariates.html" class="no-external">Detection function models including covariates</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_covariates.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="11" data-categories="line transect,design,dssd" data-listing-date-sort="1713308400000" data-listing-file-modified-sort="1715351491623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/Distance_covariates.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/ETP.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Detection function models including covariates
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('line transect'); return false;">
 line transect
@@ -742,28 +685,23 @@ design
 dssd
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_covariates.html" class="no-external">Bringing covariates into detection function, using amakihi data from Marques et al.&nbsp;(2007).</a>
+<div class="card-text listing-description">
+Bringing covariates into detection function, using amakihi data from Marques et al.&nbsp;(2007).
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_covariates.html" class="no-external"></a></p><a href="../case_studies/Distance_covariates.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="point transect,songbirds,covariates,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470654170" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_multispecies.html" class="no-external"></a></p><a href="../case_studies/Distance_multispecies.html" class="no-external">
-<p><img src="../case_studies/distance_multispecies.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_multispecies.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_multispecies.html" class="no-external">Estimates from a multi-species survey</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_multispecies.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="12" data-categories="point transect,songbirds,covariates,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470654170" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/Distance_multispecies.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_multispecies.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estimates from a multi-species survey
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('point transect'); return false;">
 point transect
@@ -778,28 +716,23 @@ covariates
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_multispecies.html" class="no-external">Use of species covariate to produce species-specific density estimates when number of detections for some species is small.</a>
+<div class="card-text listing-description">
+Use of species covariate to produce species-specific density estimates when number of detections for some species is small.
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_multispecies.html" class="no-external"></a></p><a href="../case_studies/Distance_multispecies.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="line transects,simulation" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470437962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail">
-<p><a href="../case_studies/dsims_gettingstarted.html" class="no-external"></a></p><a href="../case_studies/dsims_gettingstarted.html" class="no-external">
-<p><img src="../case_studies/dsims_gettingstarted.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dsims_gettingstarted.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dsims_gettingstarted.html" class="no-external">Getting started with <code>dsims</code></a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dsims_gettingstarted.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="13" data-categories="line transects,simulation" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470437962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="../case_studies/dsims_gettingstarted.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dsims_gettingstarted.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Getting started with <code>dsims</code>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('line transects'); return false;">
 line transects
@@ -808,28 +741,23 @@ line transects
 simulation
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dsims_gettingstarted.html" class="no-external">Simulation of a marine mammal survey</a>
+<div class="card-text listing-description">
+Simulation of a marine mammal survey
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dsims_gettingstarted.html" class="no-external"></a></p><a href="../case_studies/dsims_gettingstarted.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="line transect,design,dssd" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470819978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail">
-<p><a href="../case_studies/dssd_start.html" class="no-external"></a></p><a href="../case_studies/dssd_start.html" class="no-external">
-<p><img src="../case_studies/dssd_start.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dssd_start.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dssd_start.html" class="no-external">Getting started with <code>dssd</code></a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dssd_start.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="14" data-categories="line transect,design,dssd" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470819978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="../case_studies/dssd_start.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dssd_start.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Getting started with <code>dssd</code>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('line transect'); return false;">
 line transect
@@ -841,28 +769,23 @@ design
 dssd
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dssd_start.html" class="no-external">Create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and average transect lengths. The example uses a parallel line transects; other designs available in the dssd package follow from this example.</a>
+<div class="card-text listing-description">
+Create a survey design within a study-area, and examine properties of the design such as how well it covers the study area and average transect lengths. The example uses a…
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dssd_start.html" class="no-external"></a></p><a href="../case_studies/dssd_start.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="15" data-categories="stratification,inference,line transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471058746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_differences.html" class="no-external"></a></p><a href="../case_studies/Distance_differences.html" class="no-external">
-<p><img src="../case_studies/distance_differences.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_differences.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_differences.html" class="no-external">Inference regarding differences in density between strata</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_differences.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="15" data-categories="stratification,inference,line transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471058746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="../case_studies/Distance_differences.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/distance_differences.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Inference regarding differences in density between strata
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('stratification'); return false;">
 stratification
@@ -877,28 +800,23 @@ line transects
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_differences.html" class="no-external">Statistical comparison of density estimates between strata. Uses formulation provided in Buckland et al.&nbsp;(2001) Sect. 3.6.5</a>
+<div class="card-text listing-description">
+Statistical comparison of density estimates between strata. Uses formulation provided in Buckland et al.&nbsp;(2001) Sect. 3.6.5
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_differences.html" class="no-external"></a></p><a href="../case_studies/Distance_differences.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="16" data-categories="line transect,design,dssd,stratification" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470937241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail">
-<p><a href="../case_studies/dssd_multiple.html" class="no-external"></a></p><a href="../case_studies/dssd_multiple.html" class="no-external">
-<p><img src="../case_studies/dssd_multiple.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dssd_multiple.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dssd_multiple.html" class="no-external">Multiple strata in <code>dssd</code></a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dssd_multiple.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="16" data-categories="line transect,design,dssd,stratification" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716470937241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<a href="../case_studies/dssd_multiple.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dssd_multiple.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Multiple strata in <code>dssd</code>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('line transect'); return false;">
 line transect
@@ -913,28 +831,23 @@ dssd
 stratification
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dssd_multiple.html" class="no-external">An example of how to create a design in dssd that contains multiple strata, with different design characteristics in each stratum.</a>
+<div class="card-text listing-description">
+An example of how to create a design in dssd that contains multiple strata, with different design characteristics in each stratum.
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dssd_multiple.html" class="no-external"></a></p><a href="../case_studies/dssd_multiple.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="17" data-categories="grouped strata,line transects,simulation" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471194777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<div class="thumbnail">
-<p><a href="../case_studies/dsims_grouped.html" class="no-external"></a></p><a href="../case_studies/dsims_grouped.html" class="no-external">
-<p><img src="../case_studies/dsims_grouped.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/dsims_grouped.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/dsims_grouped.html" class="no-external">Simulation of combining strata</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/dsims_grouped.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="17" data-categories="grouped strata,line transects,simulation" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471194777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<a href="../case_studies/dsims_grouped.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../case_studies/dsims_grouped.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulation of combining strata
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('grouped strata'); return false;">
 grouped strata
@@ -946,28 +859,23 @@ line transects
 simulation
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/dsims_grouped.html" class="no-external">Simulations using grouped strata for analysis when the region has been divided into sub-strata for design optimisation.</a>
+<div class="card-text listing-description">
+Simulations using grouped strata for analysis when the region has been divided into sub-strata for design optimisation.
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/dsims_grouped.html" class="no-external"></a></p><a href="../case_studies/dsims_grouped.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="18" data-categories="camera traps,line transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471447832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_altoptim.html" class="no-external"></a></p><a href="../case_studies/Distance_altoptim.html" class="no-external">
-<p><img src="../case_studies/distance_altoptim.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_altoptim.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_altoptim.html" class="no-external">Software choices for fitting detection functions</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_altoptim.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="18" data-categories="camera traps,line transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471447832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<a href="../case_studies/Distance_altoptim.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../case_studies/distance_altoptim.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Software choices for fitting detection functions
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('camera traps'); return false;">
 camera traps
@@ -979,28 +887,23 @@ line transects
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_altoptim.html" class="no-external">Demonstrating the mcds.exe alternative optimization engine for fitting single platform detection functions in the Distance and mrds packages</a>
+<div class="card-text listing-description">
+Demonstrating the mcds.exe alternative optimization engine for fitting single platform detection functions in the Distance and mrds packages
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_altoptim.html" class="no-external"></a></p><a href="../case_studies/Distance_altoptim.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="19" data-categories="multi-species,line transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471559849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_caution.html" class="no-external"></a></p><a href="../case_studies/Distance_caution.html" class="no-external">
-<p><img src="../case_studies/distance_caution.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_caution.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_caution.html" class="no-external">Take care when subsetting flatfiles by species</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_caution.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="19" data-categories="multi-species,line transects,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471559849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="../case_studies/Distance_caution.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../case_studies/distance_caution.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Take care when subsetting flatfiles by species
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('multi-species'); return false;">
 multi-species
@@ -1012,28 +915,23 @@ line transects
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_caution.html" class="no-external">Adding additional information to flatfiles when subsetting analysis by species</a>
+<div class="card-text listing-description">
+Adding additional information to flatfiles when subsetting analysis by species
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_caution.html" class="no-external"></a></p><a href="../case_studies/Distance_caution.html" class="no-external">
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="20" data-categories="bootstrap,variance,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471648714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<div class="thumbnail">
-<p><a href="../case_studies/Distance_variance.html" class="no-external"></a></p><a href="../case_studies/Distance_variance.html" class="no-external">
-<p><img src="../case_studies/distance_variance.png" class="thumbnail-image"></p>
-</a><p><a href="../case_studies/Distance_variance.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../case_studies/Distance_variance.html" class="no-external">Variance estimation for line transects</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../case_studies/Distance_variance.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="20" data-categories="bootstrap,variance,analysis" data-listing-date-sort="1717196400000" data-listing-file-modified-sort="1716471648714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<a href="../case_studies/Distance_variance.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../case_studies/distance_variance.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Variance estimation for line transects
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('bootstrap'); return false;">
 bootstrap
@@ -1045,19 +943,20 @@ variance
 analysis
 </div>
 </div>
-<div class="listing-description">
-<a href="../case_studies/Distance_variance.html" class="no-external">Variance estimation examining three approaches: delta-method, bootstrap and bootstrap incorporating model uncertainty. Based on line transect data of winter wrens from Buckland (2006).</a>
+<div class="card-text listing-description">
+Variance estimation examining three approaches: delta-method, bootstrap and bootstrap incorporating model uncertainty. Based on line transect data of winter wrens from…
 </div>
 </div>
-<div class="metadata">
-<p><a href="../case_studies/Distance_variance.html" class="no-external"></a></p><a href="../case_studies/Distance_variance.html" class="no-external">
+</div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="studies-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 <div class="columns">
 <div class="column" style="width:60%;">

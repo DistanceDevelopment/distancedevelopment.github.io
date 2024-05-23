@@ -3,9 +3,10 @@ title: Case studies
 listing: 
   - id: studies
     contents: "../case_studies/*.qmd"
-    type: default
+    type: grid
     fields: [image, title, description, categories]
     date-format: "MMM YYYY"
+    categories: true
 ---
 
 Over time we have developed a number of examples, or case studies to help users experience how to use the R packages we have developed to perform a number of common tasks. Feel free to use the code provided as templates forming the starting point for your own analysis.
