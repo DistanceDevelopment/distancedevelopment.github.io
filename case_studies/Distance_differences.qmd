@@ -1,9 +1,9 @@
 ---
 title: "Inference regarding differences in density between strata"
 description: "Statistical comparison of density estimates between strata. Uses formulation provided in Buckland et al. (2001) Sect. 3.6.5"
-date: 04-17-2024
+date: June 2024
 categories: [stratification, inference, line transects, analysis] # self-defined categories
-image: ETP.png
+image: distance_differences.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

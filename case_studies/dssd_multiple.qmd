@@ -1,9 +1,9 @@
 ---
 title: "Multiple strata in `dssd`"
 description: "An example of how to create a design in dssd that contains multiple strata, with different design characteristics in each stratum."
-date: 04-17-2024
+date: June 2024
 categories: [line transect, design, dssd, stratification] # self-defined categories
-image: ETP.png
+image: dssd_multiple.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Software choices for fitting detection functions"
 description: "Demonstrating the mcds.exe alternative optimization engine for fitting single platform detection functions in the Distance and mrds packages"
-date: 04-17-2024
+date: June 2024
 categories: [camera traps, line transects, analysis] # self-defined categories
-image: ETP.png
+image: distance_altoptim.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

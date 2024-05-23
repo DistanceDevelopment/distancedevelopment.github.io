@@ -1,9 +1,9 @@
 ---
 title: "Simulation of combining strata"
 description: "Simulations using grouped strata for analysis when the region has been divided into sub-strata for design optimisation."
-date: 04-17-2024
+date: June 2024
 categories: [grouped strata, line transects, simulation] # self-defined categories
-image: ETP.png
+image: dsims_grouped.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

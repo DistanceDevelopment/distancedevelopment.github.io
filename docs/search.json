@@ -296,14 +296,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Distance sampling org 2024",
+    "title": "Distance sampling software 2024",
     "section": "",
     "text": "Photo by Matthew Fainman on Unsplash"
   },
   {
     "objectID": "index.html#recent-news",
     "href": "index.html#recent-news",
-    "title": "Distance sampling org 2024",
+    "title": "Distance sampling software 2024",
     "section": "Recent news",
     "text": "Recent news\nWelcome to the home of software and insights regarding distance sampling hosted by the Centre for Research into Ecological and Environmental Modelling at the University of St Andrews.\n\n\n\n\n\n\n\n\n\n\nsecond post\n\n\nblog post description about mrds hope you enjoy it\n\n\n\nRexstad\n\n\n18 Apr 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfirst post\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nRexstad\n\n\n17 Apr 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNew CRAN release of mrds and Distance packages\n\n\nRelease of mrds 2.3.0 and Distance 1.0.9 on CRAN. An important update is that the default encounter rate variance estimator for point transect surveys has now been…\n\n\n\nLaura Marshall\n\n\n04 Jan 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNew versions of Distance and mrds packages\n\n\nWe are pleased to announce the release of new versions of our R packages Distance and mrds. The new release adds the ability to fit detection functions (CDS and MCDS)…\n\n\n\nLen Thomas\n\n\n03 Aug 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDesign and Simulation R packages\n\n\nWe would like to make you aware that our design and simulation packages (dssd and dsims) are temporarily only available from our development repository on github.\n\n\n\nLen Thomas\n\n\n12 Jan 2023\n\n\n\n\n\n\n\n\n\n\n\n\nNew versions of R packages\n\n\nImminent release of new versions of our R packages Distance and mrds. The information below will be particularly relevant to users of dht2. We recommend all users of…\n\n\n\nLaura Marshall\n\n\n16 Nov 2022\n\n\n\n\n\n\n\n\n\n\n\n\nRelease of Distance 7.5\n\n\nRelease of a new version of Distance for Windows, Distance 7.5. This version upgrades to use 64 bit R and also contains new versions of our R packages which are also now on…\n\n\n\nLaura Marshall\n\n\n07 Sep 2022\n\n\n\n\n\n\n\n\n\n\n\n\nDistance for Windows and R 4.2\n\n\nUsers of Distance for Windows who make use of the analysis engines that call R - that is the MRDS, DSM and MA analysis engines. Distance for Windows currently is not…\n\n\n\nLen Thomas\n\n\n06 Jun 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
@@ -460,7 +460,7 @@
     "href": "case_studies/dssd_start.html",
     "title": "Getting started with dssd",
     "section": "",
-    "text": "https://distancedevelopment.github.io/dssd/articles/GettingStarted.html"
+    "text": "Getting started with dssd"
   },
   {
     "objectID": "case_studies/Distance-multispecies.html",
@@ -580,5 +580,26 @@
     "title": "Combating the effects of size bias",
     "section": "",
     "text": "Combating the effects of size bias"
+  },
+  {
+    "objectID": "case_studies/dsims_grouped.html",
+    "href": "case_studies/dsims_grouped.html",
+    "title": "Simulation of combining strata",
+    "section": "",
+    "text": "Simulation of combining strata"
+  },
+  {
+    "objectID": "case_studies/Distance_altoptim.html",
+    "href": "case_studies/Distance_altoptim.html",
+    "title": "Software choices for fitting detection functions",
+    "section": "",
+    "text": "Software choices for fitting detection functions"
+  },
+  {
+    "objectID": "case_studies/Distance_variance.html",
+    "href": "case_studies/Distance_variance.html",
+    "title": "Variance estimation for line transects",
+    "section": "",
+    "text": "Variance estimation for line transects"
   }
 ]

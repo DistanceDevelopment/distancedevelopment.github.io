@@ -1,5 +1,5 @@
 ---
-title: "Distance sampling org 2024"
+title: "Distance sampling software 2024"
 listing:
   id: sample-listings
   sort-ui: false

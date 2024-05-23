@@ -3,7 +3,7 @@ title: "Getting started with `dsims`"
 description: "Simulation of a marine mammal survey"
 date: June 2024
 categories: [line transects, simulation] # self-defined categories
-image: dsm_gettingstarted.png
+image: dsims_gettingstarted.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
