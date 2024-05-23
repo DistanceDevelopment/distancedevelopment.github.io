@@ -1,9 +1,9 @@
 ---
 title: "Analysis of double observer data"
 description: "Full independence and point independence analysis of golf tee data from multiple observers."
-date: 04-17-2024
+date: June 2024
 categories: [mark-recapture distance sampling, line transect, analysis] # self-defined categories
-image: ETP.png
+image: mrds_doubleobserver.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

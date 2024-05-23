@@ -1,9 +1,9 @@
 ---
 title: "Analysis of line transect data"
 description: "Line transect data of winter wrens in Scotland. An example of model fitting, model selection, goodness of fit assessment. Basic analysis skills required for any distance sampling analysis."
-date: 04-17-2024
+date: June 2024
 categories: [line transect, songbirds, analysis] # self-defined categories
-image: ETP.png
+image: distance_lines.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

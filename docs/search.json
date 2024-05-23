@@ -149,7 +149,7 @@
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "First attempt at Distancesampling news",
+    "title": "News regarding distance sampling",
     "section": "",
     "text": "second post\n\n\n\nQuarto\n\n\nsoftware\n\n\nmrds\n\n\n\nblog post description about mrds hope you enjoy it\n\n\n\nRexstad\n\n\nApr 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfirst post\n\n\n\nQuarto\n\n\nsoftware\n\n\nDistance\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nRexstad\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNew CRAN release of mrds and Distance packages\n\n\n\nsoftware\n\n\nDistance\n\n\nmrds\n\n\n\nRelease of mrds 2.3.0 and Distance 1.0.9 on CRAN. An important update is that the default encounter rate variance estimator for point transect surveys has now been…\n\n\n\nLaura Marshall\n\n\nJan 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNew versions of Distance and mrds packages\n\n\n\nsoftware\n\n\nDistance\n\n\nmrds\n\n\n\nWe are pleased to announce the release of new versions of our R packages Distance and mrds. The new release adds the ability to fit detection functions (CDS and MCDS)…\n\n\n\nLen Thomas\n\n\nAug 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDesign and Simulation R packages\n\n\n\nsoftware\n\n\ndssd\n\n\ndsims\n\n\n\nWe would like to make you aware that our design and simulation packages (dssd and dsims) are temporarily only available from our development repository on github.\n\n\n\nLen Thomas\n\n\nJan 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nNew versions of R packages\n\n\n\nsoftware\n\n\nDistance\n\n\nmrds\n\n\n\nImminent release of new versions of our R packages Distance and mrds. The information below will be particularly relevant to users of dht2. We recommend all users of…\n\n\n\nLaura Marshall\n\n\nNov 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nRelease of Distance 7.5\n\n\n\nsoftware\n\n\nDistance for Windows\n\n\n\nRelease of a new version of Distance for Windows, Distance 7.5. This version upgrades to use 64 bit R and also contains new versions of our R packages which are also now on…\n\n\n\nLaura Marshall\n\n\nSep 7, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nDistance for Windows and R 4.2\n\n\n\nsoftware\n\n\nDistance for Windows\n\n\n\nUsers of Distance for Windows who make use of the analysis engines that call R - that is the MRDS, DSM and MA analysis engines. Distance for Windows currently is not…\n\n\n\nLen Thomas\n\n\nJun 6, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
@@ -545,5 +545,40 @@
     "title": "Data formatting for dsm analysis",
     "section": "",
     "text": "Data organisation and segmenting of transect effort"
+  },
+  {
+    "objectID": "case_studies/Distance_cuecounts.html",
+    "href": "case_studies/Distance_cuecounts.html",
+    "title": "Analysis of cue count surveys",
+    "section": "",
+    "text": "Analysis of cue count surveys"
+  },
+  {
+    "objectID": "case_studies/Distance_multispecies.html",
+    "href": "case_studies/Distance_multispecies.html",
+    "title": "Estimates from a multi-species survey",
+    "section": "",
+    "text": "Estimates from a multi-species survey"
+  },
+  {
+    "objectID": "case_studies/mrds_doubleobserver.html",
+    "href": "case_studies/mrds_doubleobserver.html",
+    "title": "Analysis of double observer data",
+    "section": "",
+    "text": "Analysis of double observer data"
+  },
+  {
+    "objectID": "case_studies/Distance_lines.html",
+    "href": "case_studies/Distance_lines.html",
+    "title": "Analysis of line transect data",
+    "section": "",
+    "text": "Analysis of line transect data"
+  },
+  {
+    "objectID": "case_studies/Distance_sizebias.html",
+    "href": "case_studies/Distance_sizebias.html",
+    "title": "Combating the effects of size bias",
+    "section": "",
+    "text": "Combating the effects of size bias"
   }
 ]

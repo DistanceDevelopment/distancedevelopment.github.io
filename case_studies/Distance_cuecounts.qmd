@@ -1,9 +1,9 @@
 ---
 title: "Analysis of cue count surveys"
 description: "Cue counting example based on line transect data of winter wrens from Buckland (2006). Incorporating song rate in analysis."
-date: 04-17-2024
+date: June 2024
 categories: [cue counts, line transect, analysis] # self-defined categories
-image: ETP.png
+image: distance_cuecounts.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Analysis of stratified surveys"
 description: "Analysis of stratified survey design, including model selection to determine whether stratum-specific detection functions are necessary. Uses point transect analysis of savannah sparrow data set from Knopf et al. (1988)."
-date: 04-17-2024
+date: June 2024
 categories: [stratification, point transects, analysis] # self-defined categories
-image: ETP.png
+image: distance_stratification.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
