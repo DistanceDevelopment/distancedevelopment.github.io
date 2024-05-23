@@ -2,7 +2,7 @@
 title: "Detection function models including covariates"
 description: "Bringing covariates into detection function, using amakihi data from Marques et al. (2007)."
 date: 04-17-2024
-categories: [line transect, design, dssd] # self-defined categories
+categories: [line transects, design, dssd] # self-defined categories
 image: ETP.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---

@@ -2,7 +2,7 @@
 title: "Data formatting for `dsm` analysis"
 description: "Manipulating spatial data with `sf` to segment effort"
 date: 04-17-2024
-categories: [spatial model, line transect, analysis] # self-defined categories
+categories: [spatial model, line transects, analysis] # self-defined categories
 image: dsm_dataformat.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---

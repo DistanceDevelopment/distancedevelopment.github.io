@@ -2,7 +2,7 @@
 title: "Estimates from a multi-species survey"
 description: "Use of species covariate to produce species-specific density estimates when number of detections for some species is small."
 date: June 2024
-categories: [point transect, songbirds, covariates, analysis] # self-defined categories
+categories: [point transects, songbirds, covariates, analysis] # self-defined categories
 image: distance_multispecies.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
