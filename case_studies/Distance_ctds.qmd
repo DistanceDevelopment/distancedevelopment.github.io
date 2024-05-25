@@ -1,10 +1,10 @@
 ---
 title: "Analysis of camera trap data using distance sampling"
 description: "Replicates analyses of duiker data presented by Howe et al. (2017) including model selection methods in presence of overdispersion (Howe et al. 2019)"
-date: 04-17-2024
+date: June 2024
 categories: [camera traps, point transects, analysis] # self-defined categories
-image: ETP.png
+image: distance_ctds.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-[Analysis of camera trap data using distance sampling](https://distancedevelopment.github.io/Distance/articles/web-only/ctds/camera-distill.html)
+[Analysis of camera trap data using distance sampling](https://distancedevelopment.github.io/Distance/articles/web-only/CTDS/camera-distill.html)
