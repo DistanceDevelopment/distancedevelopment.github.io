@@ -1,10 +1,15 @@
 ---
-title: Distance 7.5 download
+title: Distance 8.0 download
 ---
 
-# Download Distance 7.5
+# Download Distance 8.0
 
 [Screenshots of Distance 7 can be found here.](DistWin_images.qmd)
+
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## Reference throughout to 7.5 needs to be updated
+
+:::
 
 Distance 7.5 is now released as the latest version in the Distance 7 release cycle. This version of Distance now runs the 64 bit R allowing users to use R versions 4.2 and up (previous versions of Distance only ran 32 bit R). We have also switched the simulation engine to use the `dsims` R package (DSsim has now been retired from CRAN). Please report any issues you encounter with this switch. The ability to run global simulations with stratified designs is once again available with Distance 7.5 release 2. 
  
@@ -34,6 +39,11 @@ Bugs or suggested enhancements should be reported at the [Distance issue tracker
 
 Download Distance 7.5 Release 2 <a href="https://standrews.onlinesurveys.ac.uk/distance-75-release-2-download" target="_blank">here</a>
  
+:::{.callout-warning collapse=false appearance='default' icon=true}
+## Text below needs to change because of signing certificate
+
+:::
+
 
 Once you have downloaded the file, simply run it to launch the setup program, and then follow the instructions displayed on your screen.  A reboot may be required, in which case you may need to restart the setup program again.  On some systems, you may see the following warning message:
 
