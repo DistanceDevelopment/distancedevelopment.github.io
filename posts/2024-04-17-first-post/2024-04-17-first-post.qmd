@@ -1,0 +1,8 @@
+---
+title: New CRAN release of mrds and Distance packages
+author: Laura Marshall
+date: 2024-01-04
+description: "Release of `mrds 2.3.0` and `Distance 1.0.9` on CRAN. An important update is that the default encounter rate variance estimator for point transect surveys has now been changed from the 'P3' estimator to the 'P2' estimator."
+categories: [software, Distance, mrds]
+draft: true
+---
