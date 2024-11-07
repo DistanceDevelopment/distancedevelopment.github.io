@@ -2,8 +2,10 @@
 title: Training in distance sampling methods
 ---
 
-Our training in design and analysis of distance sampling surveys take two forms: 
+Our training in design and analysis of distance sampling surveys take two forms:
+
 ### Guided training workshops
+
 - offered online via Microsoft Teams or Zoom
 
 :::{.callout-tip collapse=false appearance='default' icon=true}
