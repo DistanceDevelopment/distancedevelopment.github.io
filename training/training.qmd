@@ -3,20 +3,19 @@ title: Training in distance sampling methods
 ---
 
 Our training in design and analysis of distance sampling surveys take two forms: 
-
 ### Guided training workshops
 - offered online via Microsoft Teams or Zoom
 
-:::{.callout-important collapse=false appearance='default' icon=true}
+:::{.callout-tip collapse=false appearance='default' icon=true}
 ## Current offerings
-- [Camera trap distance sampling](https://workshops.distancesampling.org/ctds-may-2024) 27-31 May 2024
-  - Registration is now open; follow [this link to register](https://onlineshop.st-andrews.ac.uk/conferences-and-events/events/mathematics-statistics/online-workshop-analysis-of-camera-trap-data-with-distance-sampling-27th31st-may-2024). Registration closes on 15th May or when the workshop fills, whichever occurs first
+
 - Introductory distance sampling
-  - Likely offered in October 2024 (registration opening in August)
+  - 17-28 February 2025 (registration opening in November 2024)
 :::
 
-[Email us](mailto:distance@st-andrews.ac.uk) if you are interested in workshops on  introduction to distance sampling or practical design and simulation.
+We offer widening participation scholarships for our guided training workshops. See details and application procedures [at this link](scholarships.qmd).
 
+[Email us](mailto:distance@st-andrews.ac.uk) if you are interested in workshops on  introduction to distance sampling or practical design and simulation.
 
 ### Asynchronous introductory workshops
 - lectures and practical exercise are available online to investigate and review at your own pace.

@@ -11,7 +11,7 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Training"
-        file: training.qmd
+        file: training/training.qmd
       - sidebar:software
       - sidebar:resources
       - sidebar:history

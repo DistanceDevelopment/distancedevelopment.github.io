@@ -1,5 +1,5 @@
 ---
-title: "Distance sampling software 2024"
+title: "The distance sampling project"
 listing:
   id: sample-listings
   sort-ui: false
@@ -14,9 +14,9 @@ listing:
 
 ![Photo by Matthew Fainman on Unsplash](matthew-fainman-MLxEmi1Fk8A-unsplash.jpg){width="70%"}
 
-## Recent news
+The Distance project provides software for the design and analysis of distance sampling surveys of wildlife populations. This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the [Centre for Research into Ecological and Environmental Modelling](https://www.creem.st-andrews.ac.uk/) at the [University of St Andrews](https://www.st-andrews.ac.uk/).
 
-Welcome to the home of software and insights regarding distance sampling hosted by the [Centre for Research into Ecological and Environmental Modelling](https://www.creem.st-andrews.ac.uk/) at the [University of St Andrews](https://www.st-andrews.ac.uk/).
+## Recent news
 
 ::: {#sample-listings}
 :::

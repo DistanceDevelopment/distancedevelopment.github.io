@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2024-11-05-pkg-updates/2024-11-05-mrds-Distance.html",
       "/posts/2024-04-18-second-post/index.html",
       "/posts/2024-04-17-first-post/index.html",
       "/posts/oldsite/2024-01-04-rpackages.html",
@@ -15,6 +16,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-11-05-pkg-updates/2024-11-05-mrds-Distance.html",
       "/posts/2024-04-18-second-post/index.html",
       "/posts/2024-04-17-first-post/index.html",
       "/posts/oldsite/2024-01-04-rpackages.html",
