@@ -2,7 +2,7 @@
 title: "New CRAN release of `mrds` and `Distance` R packages"
 description: "Announcing new major releases of the mrds package, version 3.0.0, and Distance package, version 2.0.0."
 author: Len Thomas
-date: November 2024
+date: November 5 2024
 categories: [camera traps, Distance, mrds, analysis] # self-defined categories
 image: distance_ctds.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
