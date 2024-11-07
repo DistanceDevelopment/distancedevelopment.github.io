@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The distance sampling project</title>
+<title>Introductory workshop, February 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo.gif" rel="icon" type="image/gif">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.gif" rel="icon" type="image/gif">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,36 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sample-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sample-listings'] = new List('listing-sample-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script type="text/javascript">
 
     (function(c,l,a,r,i,t,y){
@@ -113,37 +81,8 @@ ul.task-list li input[type="checkbox"] {
 
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -159,11 +98,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./training/training.html"> 
+    <a class="nav-link" href="../../training/training.html"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -172,15 +111,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-software">    
         <li>
-    <a class="dropdown-item" href="./software/downloaddistwin.html">
+    <a class="dropdown-item" href="../../software/downloaddistwin.html">
  <span class="dropdown-text">Distance 7.5 download</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software/activity.html">
+    <a class="dropdown-item" href="../../software/activity.html">
  <span class="dropdown-text">Activity for CTDS</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software/Rpackages.html">
+    <a class="dropdown-item" href="../../software/Rpackages.html">
  <span class="dropdown-text">R packages</span></a>
   </li>  
     </ul>
@@ -191,27 +130,27 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="./resources/citations.html">
+    <a class="dropdown-item" href="../../resources/citations.html">
  <span class="dropdown-text">Citations for distance sampling software</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/whatisds.html">
+    <a class="dropdown-item" href="../../resources/whatisds.html">
  <span class="dropdown-text">What is distance sampling?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/books_and_papers.html">
+    <a class="dropdown-item" href="../../resources/books_and_papers.html">
  <span class="dropdown-text">Books and papers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/distancelist.html">
+    <a class="dropdown-item" href="../../resources/distancelist.html">
  <span class="dropdown-text">E-mail list</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/bibliography/dbib.html">
+    <a class="dropdown-item" href="../../resources/bibliography/dbib.html">
  <span class="dropdown-text">Curated bibliography of distance sampling publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/vignettes.html">
+    <a class="dropdown-item" href="../../resources/vignettes.html">
  <span class="dropdown-text">Case studies</span></a>
   </li>  
     </ul>
@@ -222,21 +161,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-history">    
         <li>
-    <a class="dropdown-item" href="./history/authors.html">
+    <a class="dropdown-item" href="../../history/authors.html">
  <span class="dropdown-text">Authors</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./history/distancesponsors.html">
+    <a class="dropdown-item" href="../../history/distancesponsors.html">
  <span class="dropdown-text">Sponsors</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./history/distancehistory.html">
+    <a class="dropdown-item" href="../../history/distancehistory.html">
  <span class="dropdown-text">History</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -288,7 +227,25 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#recent-news" id="toc-recent-news" class="nav-link active" data-scroll-target="#recent-news">Recent news</a></li>
+  <li><a href="#introductory-workshop-february-2025" id="toc-introductory-workshop-february-2025" class="nav-link active" data-scroll-target="#introductory-workshop-february-2025">Introductory workshop, February 2025</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
+  <li><a href="#timing" id="toc-timing" class="nav-link" data-scroll-target="#timing">Timing</a></li>
+  <li><a href="#enrollment-limit" id="toc-enrollment-limit" class="nav-link" data-scroll-target="#enrollment-limit">Enrollment limit</a></li>
+  <li><a href="#format-and-delivery-method" id="toc-format-and-delivery-method" class="nav-link" data-scroll-target="#format-and-delivery-method">Format and delivery method</a></li>
+  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
+  <li><a href="#concepts-described" id="toc-concepts-described" class="nav-link" data-scroll-target="#concepts-described">Concepts described</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration">Registration</a>
+  <ul class="collapse">
+  <li><a href="#payment" id="toc-payment" class="nav-link" data-scroll-target="#payment">Payment</a></li>
+  </ul></li>
+  <li><a href="#testimonials" id="toc-testimonials" class="nav-link" data-scroll-target="#testimonials">Testimonials</a></li>
+  <li><a href="#widening-participation-scholarship" id="toc-widening-participation-scholarship" class="nav-link" data-scroll-target="#widening-participation-scholarship">Widening participation scholarship</a></li>
+  <li><a href="#enquiries" id="toc-enquiries" class="nav-link" data-scroll-target="#enquiries">Enquiries</a></li>
+  <li><a href="#terms-and-conditions" id="toc-terms-and-conditions" class="nav-link" data-scroll-target="#terms-and-conditions">Terms and Conditions</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -297,7 +254,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The distance sampling project</h1>
+<h1 class="title">Introductory workshop, February 2025</h1>
 </div>
 
 
@@ -314,219 +271,100 @@ window.Quarto = {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="matthew-fainman-MLxEmi1Fk8A-unsplash.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
-<figcaption>Photo by Matthew Fainman on Unsplash</figcaption>
-</figure>
-</div>
-<p>The Distance project provides software for the design and analysis of distance sampling surveys of wildlife populations. This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the <a href="https://www.creem.st-andrews.ac.uk/">Centre for Research into Ecological and Environmental Modelling</a> at the <a href="https://www.st-andrews.ac.uk/">University of St Andrews</a>.</p>
-<section id="recent-news" class="level2">
-<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
-<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="camera traps,Distance,analysis" data-listing-date-sort="1730937600000" data-listing-file-modified-sort="1730979113293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
-<a href="./posts/2024-11-07-webinars/2024-11-07-webinars.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-11-07-webinars/EFI_Logo.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Two upcoming webinars of interest to distance samplers
-</h5>
-<div class="card-text listing-description">
-February webinar on CTDS analysis and May webinar on ecological applications
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Rexstad
-</div>
-<div class="listing-date">
-07 Nov 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="camera traps,Distance,mrds,analysis" data-listing-date-sort="1730764800000" data-listing-file-modified-sort="1730974812463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
-<a href="./posts/2024-11-05-pkg-updates/2024-11-05-mrds-Distance.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-11-05-pkg-updates/distance_ctds.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New CRAN release of <code>mrds</code> and <code>Distance</code> R packages
-</h5>
-<div class="card-text listing-description">
-Announcing new major releases of the mrds package, version 3.0.0, and Distance package, version 2.0.0.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-05 Nov 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="software,Distance,mrds" data-listing-date-sort="1704326400000" data-listing-file-modified-sort="1715158152919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="423">
-<a href="./posts/oldsite/2024-01-04-rpackages.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New CRAN release of mrds and Distance packages
-</h5>
-<div class="card-text listing-description">
-Release of <code>mrds 2.3.0</code> and <code>Distance 1.0.9</code> on CRAN. An important update is that the default encounter rate variance estimator for point transect surveys has now been…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Laura Marshall
-</div>
-<div class="listing-date">
-04 Jan 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="software,Distance,mrds" data-listing-date-sort="1691017200000" data-listing-file-modified-sort="1715158152919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="481">
-<a href="./posts/oldsite/2023-08-03-rupdates23.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New versions of Distance and mrds packages
-</h5>
-<div class="card-text listing-description">
-We are pleased to announce the release of new versions of our R packages <code>Distance</code> and <code>mrds</code>. The new release adds the ability to fit detection functions (CDS and MCDS)…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-03 Aug 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="software,dssd,dsims" data-listing-date-sort="1673481600000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<a href="./posts/oldsite/2023-01-12-dssd-dsims.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Design and Simulation R packages
-</h5>
-<div class="card-text listing-description">
-We would like to make you aware that our design and simulation packages (<code>dssd</code> and <code>dsims</code>) are temporarily only available from our development repository on github.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-12 Jan 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="software,Distance,mrds" data-listing-date-sort="1668556800000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
-<a href="./posts/oldsite/2022-11-16-rupdates.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New versions of R packages
-</h5>
-<div class="card-text listing-description">
-Imminent release of new versions of our R packages <code>Distance</code> and <code>mrds</code>. The information below will be particularly relevant to users of <code>dht2</code>. We recommend all users of…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Laura Marshall
-</div>
-<div class="listing-date">
-16 Nov 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="software,Distance for Windows" data-listing-date-sort="1662505200000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="755">
-<a href="./posts/oldsite/2022-09-07-distwin-release.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Release of Distance 7.5
-</h5>
-<div class="card-text listing-description">
-Release of a new version of Distance for Windows, Distance 7.5. This version upgrades to use 64 bit R and also contains new versions of our R packages which are also now on…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Laura Marshall
-</div>
-<div class="listing-date">
-07 Sep 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="software,Distance for Windows" data-listing-date-sort="1654470000000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
-<a href="./posts/oldsite/2022-06-06-distwin-plans.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Distance for Windows and R 4.2
-</h5>
-<div class="card-text listing-description">
-Users of Distance for Windows who make use of the analysis engines that call R - that is the MRDS, DSM and MA analysis engines. Distance for Windows currently is not…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-06 Jun 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-<nav id="sample-listings-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div>
-<!--
-Photo by <a href="https://unsplash.com/@mattf96?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Fainman</a> on <a href="https://unsplash.com/photos/a-gazelle-standing-in-a-field-of-tall-grass-MLxEmi1Fk8A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
--->
+<section id="introductory-workshop-february-2025" class="level1">
+<h1>Introductory workshop, February 2025</h1>
+<p>Does the following describe your situation?</p>
+<ul>
+<li>Considering the use of distance sampling for population assessment?</li>
+<li>Wish to have individual attention learning to analyse distance sampling data sets?</li>
+<li>Curious about variants of distance sampling that may suit your specific goals?</li>
+<li>Interested in using <strong>R</strong> for your distance sampling analysis?</li>
+</ul>
+<p>If so, consider taking the live online version of our distance sampling training as have participants from these locations around the world. <img src="introparts-thru2024.png" class="img-fluid"></p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Training in distance sampling design and analysis has been conducted in St Andrews for the past 25 years. In addition, training materials and video lectures were placed online in 2018 and have been visited by &gt;20000 visitors in the past six years. We now offer these lectures, discussions and exercises in an interactive format, enabling participants to engage in lectures, conduct guided analyses of data sets and ask questions of the instructor.</p>
+</section>
+<section id="instructor" class="level2">
+<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
+<p>The workshop instructor is <a href="https://research-portal.st-andrews.ac.uk/en/persons/eric-rexstad">Eric Rexstad</a></p>
+</section>
+<section id="timing" class="level2">
+<h2 class="anchored" data-anchor-id="timing">Timing</h2>
+<p>We will offer this workshop 17-28 February 2025 between the hours of <strong>1400 and 1630 UK time</strong>. The first two hours of each session are obligatory, the last half hour is devoted to discussion. Follow this link to find the <a href="[https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introductory+distance+sampling+training+workshop&amp;iso=20241007T14&amp;p1=3853&amp;ah=2&amp;am=30](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Introductory+distance+sampling+workshop+February+2025&amp;iso=20250217T14&amp;p1=3853&amp;ah=2&amp;am=30)">time of day this is offered in your time zone.</a></p>
+</section>
+<section id="enrollment-limit" class="level2">
+<h2 class="anchored" data-anchor-id="enrollment-limit">Enrollment limit</h2>
+<p>The number of participants is limited to 15 to facilitate time for questions and individual assistance with the exercises.</p>
+</section>
+<section id="format-and-delivery-method" class="level2">
+<h2 class="anchored" data-anchor-id="format-and-delivery-method">Format and delivery method</h2>
+<p>The training workshop will be delivered via the internet using <a href="https://zoom.us">Zoom software</a> that enables participants to interact with the instructor during lectures and exercises. With the aide of Zoom capabilities, we are able to offer simultaneous translation in captions. If English is not your first language, lectures and discussions will likely be available in your native language. Email the instructor if you have questions about this.</p>
+<p>The workshop will be delivered in 10 2.5-hour sessions. Each session will consist of an interactive lecture, a computing exercise analysing distance sampling data sets and a concluding question and answer session discussing principles and technical details of the session. Sessions will take place weekdays over a two week period. <em>Note:</em> In addition to the daily Zoom session, we expect participants to devote time each day outside these sessions to work on the practical exercises. Questions arising outside of the Zoom session will be answered either by email or during the following Zoom session.</p>
+<p>When participants have registered, further details will be provided regarding:</p>
+<ul>
+<li>scheduling a test Zoom session with the instructor to ensure the internet connection can support video conferencing</li>
+<li>access to the Posit cloud site for the training workshop</li>
+<li>location of the online lecture materials</li>
+</ul>
+</section>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
+<p>In the first instance, the workshop will be based upon analyses using the Distance package in R. All participants will make use of the <a href="https://posit.cloud/">cloud version of R-Studio</a>. Participants will not need to install R software onto their computers. Instead R, the R-Studio programming environment, necessary packages and data sets will all be available when you access the Posit/Cloud site created for the workshop.</p>
+</section>
+<section id="concepts-described" class="level2">
+<h2 class="anchored" data-anchor-id="concepts-described">Concepts described</h2>
+<p>Distance sampling concepts to be discussed include:</p>
+<ul>
+<li>line transects</li>
+<li>point transects</li>
+<li>survey design</li>
+<li>detection function models</li>
+<li>estimation of uncertainty and its sources</li>
+<li>stratification for variance reduction</li>
+<li>indirect (dung or nest) surveys</li>
+</ul>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>You should have familiarity, not necessarily proficiency, with the R programming language; code will be provided for conducting the 9 workshop exercises.</p>
+</section>
+<section id="registration" class="level2">
+<h2 class="anchored" data-anchor-id="registration">Registration</h2>
+<p>The registration fee is 225 GBP. All participants are asked to abide by our <a href="code-of-conduct">workshop code of conduct</a>. Registration will open in mid-November 2024 through the St Andrews Online Shop. Closing date for registration is <strong>28 January 2025</strong>.</p>
+<section id="payment" class="level3">
+<h3 class="anchored" data-anchor-id="payment">Payment</h3>
+<p>Payment should be made using the online store at the University of St Andrews. Follow the link to the online store to register and make payment.</p>
+</section>
+</section>
+<section id="testimonials" class="level2">
+<h2 class="anchored" data-anchor-id="testimonials">Testimonials</h2>
+<blockquote class="blockquote">
+<p>I really like your teaching style. The pace is steady enough for ample note taking, but quick enough to keep my attention span. The humour gets me chuckling alone at my desk. The concepts are so easy to understand and relate to. Some of these concepts I’ve been aware of for a long time in a kind of ‘working knowledge’ way, but hearing you describe the theory behind them is giving me a lot of ‘oh yeah!’ moments. It is a real pleasure and is giving me a lot to think about for my own teaching. — Dr Sarah Marley, <em>University of Portsmouth</em></p>
+</blockquote>
+<hr>
+<blockquote class="blockquote">
+<p>I would like to say I really liked RStudio Cloud and it is working just fine and I am really enjoying using it as a student. I’m looking forward to using it as an instructor too. I didn’t get the chance to give you a feedback about the first half of the course, so I will do it now. I really liked the first half of the course. I love distance sampling and I am enjoying every second of the course! The only thing I can say about this particular workshop is it deserves more time. — Kaan Özgencil, PhD student, <em>Department of Biological Sciences, Middle East Technical University, Ankara</em></p>
+</blockquote>
+<hr>
+<blockquote class="blockquote">
+<p>I’m really enjoying the course! It has really helped with my understanding of some of the basic concepts. My R education has been very sporadic and with very little guidance, so this has been really good for me. So glad it was offered! — Rebecca, <em>United States</em></p>
+</blockquote>
+</section>
+<section id="widening-participation-scholarship" class="level2">
+<h2 class="anchored" data-anchor-id="widening-participation-scholarship">Widening participation scholarship</h2>
+<p>We are offering one free place on the workshop to encouraging participation by scientists from countries with fewer resources, and from groups traditionally under-represented in wildlife science. Please see <a href="../../training/scholarships.html">here</a> for more information. Scholarship applications for the February 2025 workshop will be accepted <strong>11-22 November 2024</strong>.</p>
+</section>
+<section id="enquiries" class="level2">
+<h2 class="anchored" data-anchor-id="enquiries">Enquiries</h2>
+<p>For information about workshops please contact Eric Rexstad, email: <a href="mailto:er26@st-andrews.ac.uk">er26@st-andrews.ac.uk</a></p>
+</section>
+<section id="terms-and-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="terms-and-conditions">Terms and Conditions</h2>
+<p><a href="https://onlineshop.st-andrews.ac.uk/help/terms-and-conditions">Information about the University of St Andrews Online Payment Services is available here.</a></p>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->

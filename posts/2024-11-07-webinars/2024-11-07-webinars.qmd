@@ -1,0 +1,18 @@
+---
+title: "Two upcoming webinars of interest to distance samplers"
+description: "February webinar on CTDS analysis and May webinar on ecological applications"
+author: Rexstad
+date: 2024-11-07
+categories: [camera traps, Distance,  analysis] # self-defined categories
+image: EFI_Logo.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+## Two webinars for distance samplers
+
+The Ecological Forecasting Initiative and the Statistical Ecology section of the Ecological Society of America have hosted four virtual seminar series. In the upcoming 2024-25 series, two CREEM-affiliated speakers will present walk-throughs of statistical analyses of distance sampling related methodology.
+
+- 03 February 2025 Eric Howe (Ontario Ministry of Natural Resources and Forestry) will present *Camera trap distance sampling* and
+- 05 May 2025 Tiago Marques (University of St Andrews and Universidade de Lisboa) will present *Distance sampling applications in ecology*
+
+Additional details and links to register for the free webinars found [at this link](https://ecoforecast.org/workshops/statistical-methods-seminar-series/)

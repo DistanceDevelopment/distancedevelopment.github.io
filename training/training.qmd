@@ -12,12 +12,12 @@ Our training in design and analysis of distance sampling surveys take two forms:
 ## Current offerings
 
 - Introductory distance sampling
-  - 17-28 February 2025 (registration opening in November 2024)
+  - [17-28 February 2025](announcements/intro-feb-2025.md) (registration opening in November 2024)
 :::
 
 We offer widening participation scholarships for our guided training workshops. See details and application procedures [at this link](scholarships.qmd).
 
-[Email us](mailto:distance@st-andrews.ac.uk) if you are interested in workshops on  introduction to distance sampling or practical design and simulation.
+[Email us](mailto:distance@st-andrews.ac.uk) if you are interested in workshops on introduction to distance sampling, camera trap distance sampling or practical design and simulation.
 
 ### Asynchronous introductory workshops
 - lectures and practical exercise are available online to investigate and review at your own pace.

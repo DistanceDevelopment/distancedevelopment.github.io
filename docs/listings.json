@@ -2,7 +2,10 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2024-11-07-webinars/2024-11-07-webinars.html",
       "/posts/2024-11-05-pkg-updates/2024-11-05-mrds-Distance.html",
+      "/posts/2024-04-17-first-post/2024-04-17-first-post.html",
+      "/posts/2024-04-18-second-post/2024-04-18-second-post.html",
       "/posts/oldsite/2024-01-04-rpackages.html",
       "/posts/oldsite/2023-08-03-rupdates23.html",
       "/posts/oldsite/2023-01-12-dssd-dsims.html",
@@ -14,6 +17,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-11-07-webinars/2024-11-07-webinars.html",
       "/posts/2024-11-05-pkg-updates/2024-11-05-mrds-Distance.html",
       "/posts/oldsite/2024-01-04-rpackages.html",
       "/posts/oldsite/2023-08-03-rupdates23.html",
