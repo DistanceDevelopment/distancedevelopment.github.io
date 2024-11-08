@@ -16,7 +16,7 @@ Extension of Distance 3.5 to become Distance 4 began in 1999, and the software w
 - Distance 6.0 made use of this feature to include a new density surface modelling analysis engine, written as a library in R. Distance 6 was released in July 2009, with Distance 6.2 (containing new features and bug releases) following in May 2014.  
 - October 2016 brought the release of Distance 7, including the new simulation engine and multi-analysis engine. Distance 7.1 (July 2017) contained some new features; Distance 7.2 (June 2018) included the addition of point transect analyses in both MRDS and DSM; Distance 7.3 (February 2019) added a Shape Import Wizard; Distance 7.4 (May 2022) added features to analyze Camera Trap Distance Sampling data; and Distance 7.5 (September 2022) marked a switch from 32-bit to 64-bit R for the R-based engines.
 
-We are still actively developing the software, incorporating new features and extending current ones. If you have any comments or suggestions about the program, [we’d love to hear from you!](/contact.html)
+We are still actively developing the software, incorporating new features and extending current ones. If you have any comments or suggestions about the program, please contact us via the email address in the centre of the footer on this page.
 
 
 ## Development team alumni
