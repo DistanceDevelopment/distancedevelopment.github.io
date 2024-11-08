@@ -56,7 +56,7 @@ website:
         - about/authors.qmd
         - about/distancesponsors.qmd
         - about/distancehistory.qmd
-
+        - about/downloadstats.qmd
 
   page-footer:
     background: light

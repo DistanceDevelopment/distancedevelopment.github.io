@@ -808,7 +808,7 @@
     "href": "about/distancesponsors.html",
     "title": "Sponsors",
     "section": "",
-    "text": "The following organizations have provided support for Distance software. If you are interested in helping to support distance, or funding development of specific features, please contact us.\n\n\n\nWildlife Conservation Society for 3 years was the major sponsor of Distance, providing funding to enable ongoing support and development of the software.\n\n\n\n\nIn addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\nColorado Cooperative Fish and Wildlife Research Unit\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council",
+    "text": "The following organizations have provided support for Distance software. If you are interested in helping to support distance, or funding development of specific features, please contact us via the email address in the centre of the footer on this page.\n\n\n\nWildlife Conservation Society for 3 years was the major sponsor of Distance, providing funding to enable ongoing support and development of the software.\n\n\n\n\nIn addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\nColorado Cooperative Fish and Wildlife Research Unit\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council\nUniversity of St Andrews",
     "crumbs": [
       "Sponsors"
     ]
@@ -828,7 +828,7 @@
     "href": "about/distancesponsors.html#features-sponsors",
     "title": "Sponsors",
     "section": "",
-    "text": "In addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\nColorado Cooperative Fish and Wildlife Research Unit\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council",
+    "text": "In addition, specific features in Distance have been or are being developed through contracts or grants from:\n\nLiving Marine Resources program, US Navy, Chief of Naval Operations, Energy and Environmental Readiness Division (N45)\nUS Office of Naval Research, Marine Life Sciences program\nGeoMarine Inc Geo-Marine was acquired by Versar Inc. in 2013.\nUS National Marine Mammal Laboratory\nFisheries and Oceans Canada, Arctic Research Division\nUS National Parks Service, Inventory and Monitoring Division\nColorado Cooperative Fish and Wildlife Research Unit\nUK Biotechnology and Biological Sciences Research Council\nUK Engineering and Physical Sciences Research Council\nUniversity of St Andrews",
     "crumbs": [
       "Sponsors"
     ]
@@ -838,6 +838,9 @@
     "href": "about/downloadstats.html",
     "title": "Download statistics",
     "section": "",
-    "text": "Distance for Windows downloads per month"
+    "text": "Distance for Windows downloads per month",
+    "crumbs": [
+      "Download statistics"
+    ]
   }
 ]
