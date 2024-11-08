@@ -12,5 +12,6 @@ The below animation illustrates a simple line transect survey. As the observer m
 
 ![An animation showing an example of a distance sampling line transect survey, as the observer moves along lines, objects are detected and their observed distances are reflected in an updated histogram](../images/distance-animation.gif)
 
-<small>Code to generate the above figure may be found [here](https://gist.github.com/dill/2b0c120d5484d338d8ef).</small>
+<small>R code to generate the above figure may be found [here](https://gist.github.com/dill/2b0c120d5484d338d8ef).</small>
 
+For addition information about distance sampling, [see](books_and_papers).

@@ -4,6 +4,10 @@ title: Books and papers
 
 ### Books
 
+A book discussing practical considerations, along with developments in the decade 2004-2014 can be found in the book:
+
+- Buckland, S.T., Rexstad, E., Marques, T.A. and Oedekoven, C.S. 2015. [Distance Sampling: Methods and Applications](http://www.springer.com/us/book/9783319192185). Springer, Heidelberg.  [Accompanying website with case studies](https://www.creem.st-andrews.ac.uk/software/ds-manda/).
+
 The core concepts of distance sampling analysis are described in:
 
 - Buckland, S.T., Anderson, D.R., Burnham, K.P., Laake, J.L., Borchers, D.L. and Thomas, L. 2001. [Introduction to Distance Sampling: Estimating Abundance of Biological Populations](https://www.amazon.co.uk/Introduction-Distance-Sampling-Estimating-Populations/dp/0198509278/ref=sr_1_5?ie=UTF8&qid=1496840490&sr=8-5&keywords=buckland+s.t.#reader_0198509278). Oxford University Press, Oxford, UK.
@@ -15,10 +19,6 @@ The previous edition of this book, published in 1993 is available online for fre
 Advanced topics in distance sampling analysis are described in:
 
 - Buckland, S.T., Anderson, D.R., Burnham, K.P., Laake, J.L., Borchers, D.L. and Thomas, L. (Editors) 2004. [Advanced Distance Sampling](https://www.amazon.co.uk/Advanced-Distance-Sampling-Estimating-Populations/dp/0199225877/ref=sr_1_1?ie=UTF8&qid=1496840490&sr=8-1&keywords=buckland+s.t.#reader_0199225877). Oxford University Press, Oxford, UK.
-
-A book discussing practical considerations, along with developments in the decade 2004-2014 can be found in the recent book:
-
-- Buckland, S.T., Rexstad, E., Marques, T.A. and Oedekoven, C.S. 2015. [Distance Sampling: Methods and Applications](http://www.springer.com/us/book/9783319192185). Springer, Heidelberg.  [Accompanying website with case studies](https://www.creem.st-andrews.ac.uk/software/ds-manda/).
 
 ### Papers
 
