@@ -22,9 +22,7 @@ Photo by <a href="https://unsplash.com/@faxmachinerobot?utm_content=creditCopyTe
 
 The Distance project provides free software for the design and analysis of [distance sampling surveys of wildlife populations](resources/whatisds). This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the [Centre for Research into Ecological and Environmental Modelling](https://www.creem.st-andrews.ac.uk/) at the [University of St Andrews](https://www.st-andrews.ac.uk/).
 
-[Download Distance for Windows](software/downloaddistwin){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Standalone Windows software"}
-
-[Distance R Packages](software/Rpackages){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="R packages"}
+[Download Distance for Windows](software/downloaddistwin){.btn .btn-primary .btn-sm role="button" data-toggle="tooltip" title="Standalone Windows software"}  [Distance R Packages](software/Rpackages){.btn .btn-primary .btn-sm role="button" data-toggle="tooltip" title="R packages"}
 
 ## Recent news
 
