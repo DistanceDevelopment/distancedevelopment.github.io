@@ -419,7 +419,7 @@
     "href": "about/downloadstats.html",
     "title": "Download statistics",
     "section": "",
-    "text": "Distance for Windows downloads per month\n \n\n\nDistance and mrds R packages\n\n\n\nHarvested from RStudio CRAN mirror logs. This represents and undercount as there are other CRAN mirror sites.",
+    "text": "Distance for Windows downloads per month\n\n\n\nCompiled from our download server and download survey information.\n\n\n\n\n\nFrom user survey conducted in 2018.\n\n\n\n\nDistance and mrds R packages\n\n\n\nHarvested from RStudio CRAN mirror logs. This represents and undercount as there are other CRAN mirror sites.",
     "crumbs": [
       "Download statistics"
     ]
