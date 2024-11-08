@@ -2,8 +2,6 @@
 title: What is distance sampling?
 ---
 
-# What is distance sampling?
-
 <div style="float:right"><img src="/images/bubble-window.png" alt="An observer takes measurements during a distance sampling survey. Photo by Tiago Marques"></div>
 
 Distance sampling is a widely used methodology for estimating animal density or abundance. Its name derives from the fact that the information used for inference are the recorded distances to objects of interest (usually animals) obtained by surveying lines or points. In the case of lines the perpendicular distances to detected animals are recorded, while in the case of points the radial distances from the point to detected animals are recorded. A key underlying concept is that the probability of detecting an animal decreases as its distance from the observer increases. Much of distance sampling methodology is concentrated on *detection functions*, which model the probability of detecting an animal, given its distance from the transect. 

@@ -109,21 +109,21 @@
   {
     "objectID": "resources/distancelist.html",
     "href": "resources/distancelist.html",
-    "title": "E-mail list",
+    "title": "E-mail support list",
     "section": "",
-    "text": "This list is for researchers and practitioners interested in the estimation of wildlife abundance using distance sampling techniques (e.g., line transects, point transects (VCPs), cue counts, etc). Discussions include survey design, analysis methods, software tools, problems and new developments.\nThe purpose of the list is to promote the sharing of ideas and information among researchers and practitioners interested in distance sampling techniques. Suitable topics for discussion include:\n\nquestions about survey design and analysis\nnew methodological developments\nuse of software tools (program Distance and other software)\nnews about up-coming meetings, workshops and conferences where distance methods will be discussed\njobs related to distance sampling\n\n\n\nA Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.\n\n\n\nPrevious to June 2014, the list was hosted on the JISC webpages. Old messages have been uploaded onto the Google Group, but you can still access the old list at the list’s home page http://www.jiscmail.ac.uk/lists/distance-sampling.html.",
+    "text": "This list is for researchers and practitioners interested in the estimation of wildlife abundance using distance sampling techniques (e.g., line transects, point transects, cue counts, etc). Discussions include survey design, analysis methods, software tools, problems and new developments.\nThe purpose of the list is to promote the sharing of ideas and information among researchers and practitioners interested in distance sampling techniques. Suitable topics for discussion include:\n\nquestions about survey design and analysis\nnew methodological developments\nuse of software tools (program Distance and other software)\nnews about up-coming meetings, workshops and conferences where distance methods will be discussed\njobs related to distance sampling\n\n\n\nA Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.",
     "crumbs": [
-      "E-mail list"
+      "E-mail support list"
     ]
   },
   {
     "objectID": "resources/distancelist.html#joining-the-list",
     "href": "resources/distancelist.html#joining-the-list",
-    "title": "E-mail list",
+    "title": "E-mail support list",
     "section": "",
     "text": "A Google Group you can view and create posts can be accessed at:\ndistance-sampling Google Group\nTo simply join the group and receive messages via e-mail, send an email to\n\ndistance-sampling+subscribe@googlegroups.com\n\nwith blank subject and message. You will receive a confirmation e-mail from Google shortly afterwards.\nIf you have any issues joining the group, get in touch.",
     "crumbs": [
-      "E-mail list"
+      "E-mail support list"
     ]
   },
   {
@@ -391,7 +391,7 @@
     "href": "resources/whatisds.html",
     "title": "What is distance sampling?",
     "section": "",
-    "text": "What is distance sampling?\n\n\n\nDistance sampling is a widely used methodology for estimating animal density or abundance. Its name derives from the fact that the information used for inference are the recorded distances to objects of interest (usually animals) obtained by surveying lines or points. In the case of lines the perpendicular distances to detected animals are recorded, while in the case of points the radial distances from the point to detected animals are recorded. A key underlying concept is that the probability of detecting an animal decreases as its distance from the observer increases. Much of distance sampling methodology is concentrated on detection functions, which model the probability of detecting an animal, given its distance from the transect.\nThe below animation illustrates a simple line transect survey. As the observer moves along the transects (red line, showing progress along the current transect), objects are detected with a probability dependent on their distance from the observer (blue points are detected). Distances to the objects are recorded in the histogram. The histogram shows a characteristic decrease in frequency as distance increases — it is this relationship that is modelled by the detection function.\n\n\n\nAn animation showing an example of a distance sampling line transect survey, as the observer moves along lines, objects are detected and their observed distances are reflected in an updated histogram\n\n\nR code to generate the above figure may be found here.\nFor addition information about distance sampling, see.",
+    "text": "Distance sampling is a widely used methodology for estimating animal density or abundance. Its name derives from the fact that the information used for inference are the recorded distances to objects of interest (usually animals) obtained by surveying lines or points. In the case of lines the perpendicular distances to detected animals are recorded, while in the case of points the radial distances from the point to detected animals are recorded. A key underlying concept is that the probability of detecting an animal decreases as its distance from the observer increases. Much of distance sampling methodology is concentrated on detection functions, which model the probability of detecting an animal, given its distance from the transect.\nThe below animation illustrates a simple line transect survey. As the observer moves along the transects (red line, showing progress along the current transect), objects are detected with a probability dependent on their distance from the observer (blue points are detected). Distances to the objects are recorded in the histogram. The histogram shows a characteristic decrease in frequency as distance increases — it is this relationship that is modelled by the detection function.\n\n\n\nAn animation showing an example of a distance sampling line transect survey, as the observer moves along lines, objects are detected and their observed distances are reflected in an updated histogram\n\n\nR code to generate the above figure may be found here.\nFor addition information about distance sampling, see.",
     "crumbs": [
       "What is distance sampling?"
     ]
