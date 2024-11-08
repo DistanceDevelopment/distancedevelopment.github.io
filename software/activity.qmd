@@ -4,8 +4,9 @@ bibliography: software-bib.bib
 csl: ../apa.csl
 ---
 
-
 # Visual interface to activity package
+
+[Web interface to activity package](https://lenthomas.shinyapps.io/Activity/){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="Shiny app for activity"}
 
 Camera trap distance sampling (CTDS) is a relatively new application of distance sampling, using data from remotely-operated camera or video recorders.  The methods are described by @howe2018.  One important component of the analysis of camera trap distance sampling (CTDS) data is determining the proportion of animals that are active during the diurnal sampling window during which detections are counted.  A tool to help with this is the `activity` package (@rowcliffe2014, @activity-package in the `R` software.
 

@@ -37,8 +37,8 @@ website:
       title: "Software"
       contents: 
         - software/downloaddistwin.qmd
-        - software/activity.qmd
         - software/Rpackages.qmd
+        - software/activity.qmd
 
     - id: resources
       title: "Resources"

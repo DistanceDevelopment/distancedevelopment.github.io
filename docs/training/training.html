@@ -81,35 +81,6 @@ ul.task-list li input[type="checkbox"] {
 
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -141,15 +112,15 @@ window.Quarto = {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-software">    
         <li>
     <a class="dropdown-item" href="../software/downloaddistwin.html">
- <span class="dropdown-text">Distance 7.5 download</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../software/activity.html">
- <span class="dropdown-text">Activity for CTDS</span></a>
+ <span class="dropdown-text">Distance 8.0 download</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../software/Rpackages.html">
  <span class="dropdown-text">R packages</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../software/activity.html">
+ <span class="dropdown-text">Activity for CTDS</span></a>
   </li>  
     </ul>
   </li>
@@ -257,7 +228,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#guided-training-workshops" id="toc-guided-training-workshops" class="nav-link active" data-scroll-target="#guided-training-workshops">Guided training workshops</a></li>
-  <li><a href="#asynchronous-introductory-workshops" id="toc-asynchronous-introductory-workshops" class="nav-link" data-scroll-target="#asynchronous-introductory-workshops">Asynchronous introductory workshops</a></li>
+  <li><a href="#free-online-course" id="toc-free-online-course" class="nav-link" data-scroll-target="#free-online-course">Free online course</a></li>
   </ul>
 </nav>
     </div>
@@ -287,7 +258,7 @@ window.Quarto = {
 <section id="guided-training-workshops" class="level3">
 <h3 class="anchored" data-anchor-id="guided-training-workshops">Guided training workshops</h3>
 <ul>
-<li>offered online via Microsoft Teams or Zoom</li>
+<li>Offered periodically online via Microsoft Teams or Zoom. These workshops feature live online interactive lectures and Question and Answer sessions with self-paced computer practicals.</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
@@ -313,11 +284,11 @@ Current offerings
 <p>We offer widening participation scholarships for our guided training workshops. See details and application procedures <a href="../training/scholarships.html">at this link</a>.</p>
 <p><a href="mailto:distance@st-andrews.ac.uk">Email us</a> if you are interested in workshops on introduction to distance sampling, camera trap distance sampling or practical design and simulation.</p>
 </section>
-<section id="asynchronous-introductory-workshops" class="level3">
-<h3 class="anchored" data-anchor-id="asynchronous-introductory-workshops">Asynchronous introductory workshops</h3>
+<section id="free-online-course" class="level3">
+<h3 class="anchored" data-anchor-id="free-online-course">Free online course</h3>
 <ul>
 <li>lectures and practical exercise are available online to investigate and review at your own pace.</li>
-<li><a href="https://workshops.distancesampling.org/async2024-2/">materials</a> were completely revised in 2024 and cover the following
+<li>materials were completely revised in 2024 and cover:
 <ul>
 <li>line and point transects</li>
 <li>assessing and improving precision of abundance estimates</li>
@@ -325,10 +296,11 @@ Current offerings
 <li>stratification and use of covariates in detection function models</li>
 <li>indirect surveys and multipliers</li>
 <li>animals that occur in groups</li>
-<li>double observer methods (for estimating detection probability on the line (<span class="math inline">\(\widehat{g(0)}\)</span>))</li>
+<li>double observer methods (for estimating detection probability on the line or point, g(0))</li>
 <li>applying appropriate field methods</li>
 </ul></li>
 </ul>
+<p><a href="https://workshops.distancesampling.org/async2024-2/" class="btn btn-primary btn-lg" role="button" data-toggle="tooltip" title="free online course">Visit online course</a></p>
 
 
 </section>

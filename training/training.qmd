@@ -6,7 +6,7 @@ Our training in design and analysis of distance sampling surveys take two forms:
 
 ### Guided training workshops
 
-- offered online via Microsoft Teams or Zoom
+- Offered periodically online via Microsoft Teams or Zoom. These workshops feature live online interactive lectures and Question and Answer sessions with self-paced computer practicals.
 
 :::{.callout-tip collapse=false appearance='default' icon=true}
 ## Current offerings
@@ -19,14 +19,16 @@ We offer widening participation scholarships for our guided training workshops. 
 
 [Email us](mailto:distance@st-andrews.ac.uk) if you are interested in workshops on introduction to distance sampling, camera trap distance sampling or practical design and simulation.
 
-### Asynchronous introductory workshops
+### Free online course
 - lectures and practical exercise are available online to investigate and review at your own pace.
-- [materials](https://workshops.distancesampling.org/async2024-2/) were completely revised in 2024 and cover the following
+- materials were completely revised in 2024 and cover:
   - line and point transects
   - assessing and improving precision of abundance estimates
   - introductory survey design
   - stratification and use of covariates in detection function models
   - indirect surveys and multipliers
   - animals that occur in groups
-  - double observer methods (for estimating detection probability on the line ($\widehat{g(0)}$))
+  - double observer methods (for estimating detection probability on the line or point, g(0))
   - applying appropriate field methods
+  
+[Visit online course](https://workshops.distancesampling.org/async2024-2/){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="free online course"}
