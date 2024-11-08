@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to the Distance project website</title>
+<title>Authors</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/logo.gif" rel="icon" type="image/gif">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/logo.gif" rel="icon" type="image/gif">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,36 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sample-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 3,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sample-listings'] = new List('listing-sample-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script type="text/javascript">
 
     (function(c,l,a,r,i,t,y){
@@ -113,40 +81,11 @@ ul.task-list li input[type="checkbox"] {
 
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -159,11 +98,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./training/training.html"> 
+    <a class="nav-link" href="../training/training.html"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -172,15 +111,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-software">    
         <li>
-    <a class="dropdown-item" href="./software/downloaddistwin.html">
+    <a class="dropdown-item" href="../software/downloaddistwin.html">
  <span class="dropdown-text">Distance 8.0 download</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software/Rpackages.html">
+    <a class="dropdown-item" href="../software/Rpackages.html">
  <span class="dropdown-text">R packages</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software/activity.html">
+    <a class="dropdown-item" href="../software/activity.html">
  <span class="dropdown-text">Activity for CTDS</span></a>
   </li>  
     </ul>
@@ -191,52 +130,38 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
-    <a class="dropdown-item" href="./resources/citations.html">
+    <a class="dropdown-item" href="../resources/citations.html">
  <span class="dropdown-text">Citations for distance sampling software</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/whatisds.html">
+    <a class="dropdown-item" href="../resources/whatisds.html">
  <span class="dropdown-text">What is distance sampling?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/books_and_papers.html">
+    <a class="dropdown-item" href="../resources/books_and_papers.html">
  <span class="dropdown-text">Books and papers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/distancelist.html">
+    <a class="dropdown-item" href="../resources/distancelist.html">
  <span class="dropdown-text">E-mail support list</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/bibliography/dbib.html">
+    <a class="dropdown-item" href="../resources/bibliography/dbib.html">
  <span class="dropdown-text">Curated bibliography of distance sampling publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./resources/vignettes.html">
+    <a class="dropdown-item" href="../resources/vignettes.html">
  <span class="dropdown-text">Case studies</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./about/authors.html">
- <span class="dropdown-text">Authors</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./about/distancesponsors.html">
- <span class="dropdown-text">Sponsors</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./about/distancehistory.html">
- <span class="dropdown-text">History</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <span class="nav-link">
+<span class="menu-text">sidebar:history</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../posts.html"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -278,17 +203,55 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../about/authors.html">Authors</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/authors.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Authors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/distancesponsors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sponsors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/distancehistory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">History</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#recent-news" id="toc-recent-news" class="nav-link active" data-scroll-target="#recent-news">Recent news</a></li>
+  <li><a href="#distance-development-team" id="toc-distance-development-team" class="nav-link active" data-scroll-target="#distance-development-team">Distance development team</a>
+  <ul class="collapse">
+  <li><a href="#team-photo-gallery" id="toc-team-photo-gallery" class="nav-link" data-scroll-target="#team-photo-gallery">Team photo gallery</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -297,7 +260,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to the Distance project website</h1>
+<h1 class="title">Authors</h1>
 </div>
 
 
@@ -314,215 +277,44 @@ window.Quarto = {
 </header>
 
 
-<p><img src="simon-greenwood-unsplash.jpg" class="img-fluid"></p>
-<div style="font-size: 60%;">
-<p>Photo by <a href="https://unsplash.com/@faxmachinerobot?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Simon Greenwood</a> on <a href="https://unsplash.com/photos/tilt-shift-photography-of-brown-antelope-QHUE_LtWhXM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></p>
+<section id="distance-development-team" class="level1">
+<h1>Distance development team</h1>
+<p>Distance has been developed by a team of statisticians, ecologists and computer scientists for institutions around the world. Rather than e-mailing individual team members when asking questions, please consult our <a href="contact.html">Get in Touch page</a>.</p>
+<ul>
+<li><strong><a href="http://lenthomas.org/">Len Thomas</a></strong> is a professor of statistics with the Centre for Research into Ecological and Environmental Modelling (CREEM) at the University of St Andrews. He is the coordinator of the Distance project.</li>
+<li><strong><a href="https://risweb.st-andrews.ac.uk/portal/en/persons/laura-helen-marshall(bee4382e-3eea-4b01-b026-4589c5285a83).html">Laura Marshall</a></strong> is a post-doctoral research fellow within CREEM at the University of St Andrews.</li>
+<li><strong><a href="http://erex.github.io">Eric Rexstad</a></strong> is a senior research fellow (now part-time) within CREEM at the University of St Andrews.</li>
+<li><strong><a href="http://dlb992.wixsite.com/davidborchers">David L. Borchers</a></strong> is a professor of statistics in the School of Mathematics and Statistics at the University of St Andrews.</li>
+<li><strong><a href="https://risweb.st-andrews.ac.uk/portal/en/persons/tiago-a-marques(2383afa0-87cf-48c1-91db-fe2b47d10680).html">Tiago A. Marques</a></strong> is a senior research fellow within CREEM at the University of St Andrews.</li>
+<li><strong>Stephen T. Buckland</strong> is a retired statistician, formerly professor of statistics in the School of Mathematics and Statistics at the University of St Andrews.</li>
+<li><strong>Jeffrey L. Laake</strong> is a retired statistician, formerly with the National Marine Mammal Laboratory in Seattle, USA.</li>
+</ul>
+<section id="team-photo-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="team-photo-gallery">Team photo gallery</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/distance_team_isec_2018.jpg" class="img-fluid figure-img"></p>
+<figcaption>Distance Development team meeting at the International Statistical Ecology Conference, Summer 2018</figcaption>
+</figure>
 </div>
-<p>The Distance project provides free software for the design and analysis of <a href="resources/whatisds">distance sampling surveys of wildlife populations</a>. This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the <a href="https://www.creem.st-andrews.ac.uk/">Centre for Research into Ecological and Environmental Modelling</a> at the <a href="https://www.st-andrews.ac.uk/">University of St Andrews</a>.</p>
-<p><a href="software/downloaddistwin" class="btn btn-primary btn-sm" role="button" data-toggle="tooltip" title="Standalone Windows software">Download Distance for Windows</a> <a href="software/Rpackages" class="btn btn-primary btn-sm" role="button" data-toggle="tooltip" title="R packages">Distance R Packages</a></p>
-<section id="recent-news" class="level2">
-<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
-<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="camera traps,Distance,analysis" data-listing-date-sort="1730937600000" data-listing-file-modified-sort="1730979113293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
-<a href="./posts/2024-11-07-webinars/2024-11-07-webinars.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-11-07-webinars/EFI_Logo.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Two upcoming webinars of interest to distance samplers
-</h5>
-<div class="card-text listing-description">
-February webinar on CTDS analysis and May webinar on ecological applications
+<p><em>Distance Development team at the International Statistical Ecology Conference, St Andrews, Summer 2018</em>. Back row, left to right: Steve Buckland, Jeff Laake, Tiago Marques, David Borchers and Dave Miller. Front row, left to right: Eric Rexstad, Len Thomas, Laura Marshall and Rachel Fewster.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/isec_2014_team.jpg" class="img-fluid figure-img"></p>
+<figcaption>Distance Development team meeting at the International Statistical Ecology Conference, Summer 2014</figcaption>
+</figure>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Rexstad
+<p><em>Distance Development team at the International Statistical Ecology Conference, Montpellier, Summer 2014</em>. Left to right: Steve Buckland, Eric Rexstad, David Borchers, Len Thomas, Laura Marshall, Tiago Marques and Dave Miller. Not pictured Jeff Laake. Photographer: Rachel Fewster.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/team.jpg" class="img-fluid figure-img"></p>
+<figcaption>Distance Development team in a meeting, Summer 2001</figcaption>
+</figure>
 </div>
-<div class="listing-date">
-07 Nov 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="camera traps,Distance,mrds,analysis" data-listing-date-sort="1730764800000" data-listing-file-modified-sort="1730974812463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
-<a href="./posts/2024-11-05-pkg-updates/2024-11-05-mrds-Distance.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-11-05-pkg-updates/distance_ctds.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New CRAN release of <code>mrds</code> and <code>Distance</code> R packages
-</h5>
-<div class="card-text listing-description">
-Announcing new major releases of the mrds package, version 3.0.0, and Distance package, version 2.0.0.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-05 Nov 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="software,Distance,mrds" data-listing-date-sort="1704326400000" data-listing-file-modified-sort="1715158152919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="423">
-<a href="./posts/oldsite/2024-01-04-rpackages.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New CRAN release of mrds and Distance packages
-</h5>
-<div class="card-text listing-description">
-Release of <code>mrds 2.3.0</code> and <code>Distance 1.0.9</code> on CRAN. An important update is that the default encounter rate variance estimator for point transect surveys has now been…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Laura Marshall
-</div>
-<div class="listing-date">
-04 Jan 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="software,Distance,mrds" data-listing-date-sort="1691017200000" data-listing-file-modified-sort="1715158152919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="481">
-<a href="./posts/oldsite/2023-08-03-rupdates23.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New versions of Distance and mrds packages
-</h5>
-<div class="card-text listing-description">
-We are pleased to announce the release of new versions of our R packages <code>Distance</code> and <code>mrds</code>. The new release adds the ability to fit detection functions (CDS and MCDS)…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-03 Aug 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="software,dssd,dsims" data-listing-date-sort="1673481600000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<a href="./posts/oldsite/2023-01-12-dssd-dsims.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Design and Simulation R packages
-</h5>
-<div class="card-text listing-description">
-We would like to make you aware that our design and simulation packages (<code>dssd</code> and <code>dsims</code>) are temporarily only available from our development repository on github.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-12 Jan 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="software,Distance,mrds" data-listing-date-sort="1668556800000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
-<a href="./posts/oldsite/2022-11-16-rupdates.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New versions of R packages
-</h5>
-<div class="card-text listing-description">
-Imminent release of new versions of our R packages <code>Distance</code> and <code>mrds</code>. The information below will be particularly relevant to users of <code>dht2</code>. We recommend all users of…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Laura Marshall
-</div>
-<div class="listing-date">
-16 Nov 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="software,Distance for Windows" data-listing-date-sort="1662505200000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="755">
-<a href="./posts/oldsite/2022-09-07-distwin-release.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Release of Distance 7.5
-</h5>
-<div class="card-text listing-description">
-Release of a new version of Distance for Windows, Distance 7.5. This version upgrades to use 64 bit R and also contains new versions of our R packages which are also now on…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Laura Marshall
-</div>
-<div class="listing-date">
-07 Sep 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="software,Distance for Windows" data-listing-date-sort="1654470000000" data-listing-file-modified-sort="1715158152918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
-<a href="./posts/oldsite/2022-06-06-distwin-plans.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Distance for Windows and R 4.2
-</h5>
-<div class="card-text listing-description">
-Users of Distance for Windows who make use of the analysis engines that call R - that is the MRDS, DSM and MA analysis engines. Distance for Windows currently is not…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Len Thomas
-</div>
-<div class="listing-date">
-06 Jun 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-<nav id="sample-listings-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
-</div>
+<p><em>Distance Development team in a meeting, Summer 2001</em>. Left to right: John Pollard, Ken Burnham, Steve Buckland, Sharon Hedley, David Borchers, Len Thomas, Fernanda Marques, Jeff Laake, Samantha Strindberg.&nbsp; Team members David Anderson, Eric Rexstad and Jon Bishop are absent; Tiago Marques is behind the camera.</p>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->

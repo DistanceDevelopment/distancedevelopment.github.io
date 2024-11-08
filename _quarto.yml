@@ -14,7 +14,7 @@ website:
         file: training/training.qmd
       - sidebar:software
       - sidebar:resources
-      - sidebar:history
+      - sidebar:about
       - text: "News"
         file: posts.qmd
 
@@ -50,12 +50,12 @@ website:
         - resources/bibliography/dbib.qmd
         - resources/vignettes.qmd
       
-    - id: history
-      title: "History"    
+    - id: about
+      title: "About"    
       contents: 
-        - history/authors.qmd
-        - history/distancesponsors.qmd
-        - history/distancehistory.qmd
+        - about/authors.qmd
+        - about/distancesponsors.qmd
+        - about/distancehistory.qmd
 
 
   page-footer:

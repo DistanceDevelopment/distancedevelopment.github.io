@@ -5,7 +5,7 @@ title: Sponsors
 
 # Sponsors of Distance
 
-The following organizations have provided support for Distance software.  If you are interested in helping to support distance, or funding development of specific features, [please contact us](/contact.html).
+The following organizations have provided support for Distance software.  If you are interested in helping to support distance, or funding development of specific features, please contact us via the email address in the centre of the footer on this page.
 
 ## Major sponsor
 
@@ -24,3 +24,4 @@ In addition, specific features in Distance have been or are being developed thro
 - [Colorado Cooperative Fish and Wildlife Research Unit](https://www1.usgs.gov/coopunits/unit/Colorado)
 - [UK Biotechnology and Biological Sciences Research Council](http://www.bbsrc.ac.uk/)
 - [UK Engineering and Physical Sciences Research Council](http://www.epsrc.ac.uk/)
+- [University of St Andrews](https://st-andrews.ac.uk)
