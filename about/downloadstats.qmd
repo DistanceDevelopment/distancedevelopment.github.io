@@ -2,4 +2,5 @@
 title: Download statistics
 ---
 
-Forthcoming
+# Distance for Windows downloads per month
+![](downloadstats-figs/downloads-per-month-by-major-version.png)
