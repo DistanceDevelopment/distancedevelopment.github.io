@@ -9,7 +9,7 @@ csl: ../apa.csl
 :::: {.g-col-6}
 
 ::: {.callout-note appearance="minimal"}
-## Distance Sampling Detection Function and Abundance Estimation
+## `Distance` - Distance Sampling Detection Function and Abundance Estimation
 
 A simple way of fitting detection functions to distance sampling data for both line and point transects. Adjustment term selection, left and right truncation as well as monotonicity constraints and binning are supported. Abundance and density estimates can also be calculated (via a Horvitz-Thompson-like estimator) if survey area information is provided. See @millerjss for more information on methods and the *Articles* section of the [Distance package website](http://distancedevelopment.github.io/Distance/index.html) for example analyses.
 
@@ -22,7 +22,7 @@ A simple way of fitting detection functions to distance sampling data for both l
 :::: {.g-col-6}
 
 ::: {.callout-note appearance="minimal"}
-## Mark-Recapture Distance Sampling
+## `mrds` - Mark-Recapture Distance Sampling
 
 Animal abundance estimation via conventional, multiple covariate and mark-recapture distance sampling (CDS/MCDS/MRDS). Detection function fitting is performed via maximum likelihood. Also included are diagnostics and plotting for fitted detection functions. Abundance estimation is via a Horvitz-Thompson-like estimator. Originally described in @laake-borchers
 
@@ -35,7 +35,7 @@ Animal abundance estimation via conventional, multiple covariate and mark-recapt
 :::: {.g-col-6}
 
 ::: {.callout-note appearance="minimal"}
-## Distance Sampling Survey Design
+## `dssd` - Distance Sampling Survey Design
 
 Creates survey designs for distance sampling surveys. These designs can be assessed for various effort and coverage statistics. Once the user is satisfied with the design characteristics they can generate a set of transects to use in their distance sampling survey. Many of the designs implemented in this R package were first made available in our 'Distance' for Windows software and are detailed in Chapter 7 of Advanced Distance Sampling, @Buckland04. Package cited as @dssd.
 
@@ -48,7 +48,7 @@ Creates survey designs for distance sampling surveys. These designs can be asses
 :::: {.g-col-6}
 
 ::: {.callout-note appearance="minimal"}
-## Distance Sampling Simulations
+## `dsims` - Distance Sampling Simulations
 
 Performs distance sampling simulations. 'dsims' repeatedly generates instances of a user defined population within a given survey region. It generates surveys design and simulates the detection process, producing data analysed to produce abundance estimates. This process allows users to optimise survey designs for their specific set of survey conditions. The effects of uncertainty in population distribution or parameters can be investigated under various scenarios. All aspects of a survey and analysis can be examined prior to going into the field. Designs available from 'dssd' are detailed in @Buckland04. General distance sampling methods are detailed in @Buckland01. Package cited as @dsims.
 
@@ -61,7 +61,7 @@ Performs distance sampling simulations. 'dsims' repeatedly generates instances o
 :::: {.g-col-6}
 
 ::: {.callout-note appearance="minimal"}
-## Density surface models
+## `dsm` - Density surface models
 
 This package fits density surface models to spatially-referenced distance sampling data, based on methods developed in @hedley_spatial_2004 and @miller_spatial_2013. Count data are corrected using detection function models fitted using `mrds` or `Distance`. Spatial models are constructed using generalized additive models.
 
@@ -72,3 +72,14 @@ This package fits density surface models to spatially-referenced distance sampli
 ::::
 
 :::::
+
+Wondering how to get started with the distance sampling R packages? We recommend @millerjss as well as [case studies](http://distancedevelopment.github.io/Distance/articles) for getting started with Distance analyses.
+
+# Other packages (no longer under active development)
+
+- [`mads`](https://github.com/DistanceDevelopment/mads)
+  - Multi-Analysis Distance Sampling: incorporating unidentified sightings, covariate uncertainty and model uncertainty into distance sampling analyses
+- [`readdst`](https://github.com/DistanceDevelopment/readdst)
+  - read Distance for Windows data into R: import data from Distance for Windows "projects" and convert them into analyses one can run in the R package mrds.
+- [`dsmextra`] (https://github.com/densitymodelling/dsmextra)
+  - Extrapolation tools for density surface models, see [@bouchet2020]
