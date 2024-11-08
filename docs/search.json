@@ -296,14 +296,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "The distance sampling project",
+    "title": "Welcome to the Distance project website",
     "section": "",
-    "text": "Photo by Matthew Fainman on Unsplash\nThe Distance project provides software for the design and analysis of distance sampling surveys of wildlife populations. This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the Centre for Research into Ecological and Environmental Modelling at the University of St Andrews."
+    "text": "The Distance project provides free software for the design and analysis of distance sampling surveys of wildlife populations. This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the Centre for Research into Ecological and Environmental Modelling at the University of St Andrews.\nDownload Distance for Windows\nDistance R Packages"
   },
   {
     "objectID": "index.html#recent-news",
     "href": "index.html#recent-news",
-    "title": "The distance sampling project",
+    "title": "Welcome to the Distance project website",
     "section": "Recent news",
     "text": "Recent news\n\n\n\n\n\n\n\n\n\n\nTwo upcoming webinars of interest to distance samplers\n\n\nFebruary webinar on CTDS analysis and May webinar on ecological applications\n\n\n\nRexstad\n\n\n07 Nov 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew CRAN release of mrds and Distance R packages\n\n\nAnnouncing new major releases of the mrds package, version 3.0.0, and Distance package, version 2.0.0.\n\n\n\nLen Thomas\n\n\n05 Nov 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNew CRAN release of mrds and Distance packages\n\n\nRelease of mrds 2.3.0 and Distance 1.0.9 on CRAN. An important update is that the default encounter rate variance estimator for point transect surveys has now been…\n\n\n\nLaura Marshall\n\n\n04 Jan 2024\n\n\n\n\n\n\n\n\n\n\n\n\nNew versions of Distance and mrds packages\n\n\nWe are pleased to announce the release of new versions of our R packages Distance and mrds. The new release adds the ability to fit detection functions (CDS and MCDS)…\n\n\n\nLen Thomas\n\n\n03 Aug 2023\n\n\n\n\n\n\n\n\n\n\n\n\nDesign and Simulation R packages\n\n\nWe would like to make you aware that our design and simulation packages (dssd and dsims) are temporarily only available from our development repository on github.\n\n\n\nLen Thomas\n\n\n12 Jan 2023\n\n\n\n\n\n\n\n\n\n\n\n\nNew versions of R packages\n\n\nImminent release of new versions of our R packages Distance and mrds. The information below will be particularly relevant to users of dht2. We recommend all users of…\n\n\n\nLaura Marshall\n\n\n16 Nov 2022\n\n\n\n\n\n\n\n\n\n\n\n\nRelease of Distance 7.5\n\n\nRelease of a new version of Distance for Windows, Distance 7.5. This version upgrades to use 64 bit R and also contains new versions of our R packages which are also now on…\n\n\n\nLaura Marshall\n\n\n07 Sep 2022\n\n\n\n\n\n\n\n\n\n\n\n\nDistance for Windows and R 4.2\n\n\nUsers of Distance for Windows who make use of the analysis engines that call R - that is the MRDS, DSM and MA analysis engines. Distance for Windows currently is not…\n\n\n\nLen Thomas\n\n\n06 Jun 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },

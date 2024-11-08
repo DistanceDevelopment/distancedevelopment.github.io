@@ -1,5 +1,5 @@
 ---
-title: "The distance sampling project"
+title: "Welcome to the Distance project website"
 listing:
   id: sample-listings
   sort-ui: false
@@ -12,17 +12,22 @@ listing:
   date-format: "DD MMM YYYY"
 ---
 
-![Photo by Matthew Fainman on Unsplash](matthew-fainman-MLxEmi1Fk8A-unsplash.jpg){width="70%"}
+![](simon-greenwood-unsplash.jpg)
 
-The Distance project provides software for the design and analysis of distance sampling surveys of wildlife populations. This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the [Centre for Research into Ecological and Environmental Modelling](https://www.creem.st-andrews.ac.uk/) at the [University of St Andrews](https://www.st-andrews.ac.uk/).
+::: {style="font-size: 60%;"}
+
+Photo by <a href="https://unsplash.com/@faxmachinerobot?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Simon Greenwood</a> on <a href="https://unsplash.com/photos/tilt-shift-photography-of-brown-antelope-QHUE_LtWhXM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> 
+      
+:::
+
+The Distance project provides free software for the design and analysis of [distance sampling surveys of wildlife populations](resources/whatisds). This software takes two forms: a Windows-based program and a suite of R packages. This site is hosted by the [Centre for Research into Ecological and Environmental Modelling](https://www.creem.st-andrews.ac.uk/) at the [University of St Andrews](https://www.st-andrews.ac.uk/).
+
+[Download Distance for Windows](software/downloaddistwin){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Standalone Windows software"}
+
+[Distance R Packages](software/Rpackages){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="R packages"}
 
 ## Recent news
 
 ::: {#sample-listings}
 :::
 
-```{=html}
-<!--
-Photo by <a href="https://unsplash.com/@mattf96?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Fainman</a> on <a href="https://unsplash.com/photos/a-gazelle-standing-in-a-field-of-tall-grass-MLxEmi1Fk8A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
--->
-```
