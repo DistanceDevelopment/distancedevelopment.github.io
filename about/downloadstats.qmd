@@ -4,6 +4,7 @@ title: Download statistics
 
 # Distance for Windows downloads per month
 ![Compiled from our download server and download survey information.](downloadstats-figs/downloads-per-month-by-major-version.png)
+
 ![From user survey conducted in 2018.](downloadstats-figs/taxa.png)
 
 # `Distance` and `mrds` R packages

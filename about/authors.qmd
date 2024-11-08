@@ -4,7 +4,7 @@ title: Authors
 
 # Distance development team
 
-Distance has been developed by a team of statisticians, ecologists and computer scientists for institutions around the world. Rather than e-mailing individual team members when asking questions, please contact us via the email address in the centre of the footer on this page..
+Distance has been developed by a team of statisticians, ecologists and computer scientists for institutions around the world. Rather than e-mailing individual team members when asking questions, please contact us via the email address in the centre of the footer on this page.
 
   * **[Len Thomas](http://lenthomas.org/)** is a professor of statistics with the Centre for Research into Ecological and Environmental Modelling (CREEM) at the University of St Andrews. He is the coordinator of the Distance project.
   * **[Laura Marshall](https://risweb.st-andrews.ac.uk/portal/en/persons/laura-helen-marshall(bee4382e-3eea-4b01-b026-4589c5285a83).html)** is a post-doctoral research fellow within CREEM at the University of St Andrews.
