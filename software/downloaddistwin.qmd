@@ -16,7 +16,7 @@ Please read the "Use Agreement" below before downloading.
 
 **Before installing Distance 8.0, we recommend you read the [latest release notes](relnote.qmd).**
 
-After installing Distance 8.0 you should check the "Additional information" section, below, for any patches that fix last-minute problems.
+After installing Distance 8.0 you should check the [Additional information](#additional-information) section, below, for any patches that fix last-minute problems.
 
 If you want to make use of the density surface modelling (DSM), mark-recapture distance sampling (MRDS) or multi-analysis (MA) analysis engines or the simulation engine, you need to have the free statistics software R installed on your computer. Note also that only specific versions are supported: for the versions currently supported by Distance, see below.
 
