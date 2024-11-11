@@ -39,6 +39,6 @@ Once you have downloaded the file, simply run it to launch the setup program, an
 ### Additional information
 
 * The R libraries supplied with Distance 8.0 release 1 were compiled and tested under R version 4.4.1. We recommend you install this version of R, running Distance with older versions of R will lead to warning messages. Newer versions of R may work, but there is no guarantee of this.
-* If you're having problems with using the MRDS, DSM and MA analysis engines or the simulation engine (errors regarding check that R is installed correctly or the library directory is not writable) then check [details of R installation for Distance 8.0 Release 1](http://distancesampling.org/Distance/old-versions/d75-r-install-details.html).
+* If you're having problems with using the MRDS, DSM and MA analysis engines or the simulation engine (errors regarding check that R is installed correctly or the library directory is not writable) then check [details of R installation for Distance 8.0 Release 1](distwin_installdetails.qmd).
 
 
