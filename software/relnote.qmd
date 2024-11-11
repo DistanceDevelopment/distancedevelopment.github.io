@@ -2,9 +2,9 @@
 title: Distance for Windows release notes
 ---
 
-Distance 7.5 Release 2
+Distance 8.0 Release 1
 
-> Release Notes - February 2023
+> Release Notes - November 2024
 
 *Contents*
 
@@ -19,17 +19,17 @@ Distance 7.5 Release 2
 
 # Installation Notes
 
-## System Requirements for Distance 7.5
+## System Requirements for Distance 8.0
 
 ### Operating System and Hardware Requirements
 
-Any modern desktop PC will have no problem installing and running Distance 7.5. It requires about 90MB of space on your hard drive, and either Windows 7, 8 or 10 operating systems. (Distance will likely also run under older versions of Windows operating systems; however this is no longer actively supported. If you are using a legacy operating system, be aware that the practical minimum hardware requirements are a Pentium II Processor, 48MB RAM, 800x600 SVGA monitor with 256 colors.)
+Any modern desktop PC will have no problem installing and running Distance 8.0. It requires about 90MB of space on your hard drive, and either Windows 7, 8 or 10 operating systems. (Distance will likely also run under older versions of Windows operating systems; however this is no longer actively supported. If you are using a legacy operating system, be aware that the practical minimum hardware requirements are a Pentium II Processor, 48MB RAM, 800x600 SVGA monitor with 256 colors.)
 
 ### R Statistical Software
 
-Three analysis engines and the simulation engine in Distance 7 are implemented as libraries in the free statistical software R. These are the Mark Recapture Distance Sampling (mrds), Density Surface Modelling (dsm), Multi-Analysis Distance Sampling (mads) and the Distance Sampling Simulations (dsims) libraries. If you would like to run any of these engines, you must install R software on your computer first. You can download R from the R Project web site, http://www.r-project.org/. You need the base precompiled binary distribution for Windows.
+Three analysis engines and the simulation engine in Distance 8 are implemented as libraries in the free statistical software R. These are the Mark Recapture Distance Sampling (mrds), Density Surface Modelling (dsm), Multi-Analysis Distance Sampling (mads) and the Distance Sampling Simulations (dsims) libraries. If you would like to run any of these engines, you must install R software on your computer first. You can download R from the R Project web site, http://www.r-project.org/. You need the base precompiled binary distribution for Windows.
 
-- The R libraries in this version of Distance (7.5 release 2) were tested and compiled using R version 4.2.2. You will need to install this version of R and point Distance to it in the R Options after selecting the Preferences option from the Tools menu.
+- The R libraries in this version of Distance (8.0 release 1) were tested and compiled using R version 4.4.1. You will need to install this version of R and point Distance to it in the R Options after selecting the Preferences option from the Tools menu.
 
 Please note that R is under very active development, and new versions are released quite frequently. Unfortunately, new versions are sometimes not compatible with libraries compiled in old versions. We will endeavor to test our libraries with each new version as it appears, and update are libraries as required. We will post any information we have about compatibility with new versions on the Distance-sampling email discussion list (see below), so please check there for latest information.
 
@@ -62,9 +62,9 @@ You need to make this change because by default Distance compresses the results 
 
 *Installing Distance under Windows*
 
-The Distance setup program has a filename of the form d\[x\]release\[y\].exe, where \[x\] is derived from the version number and y is the release number. Double-click on this file to run it. You are then guided through the installation. If you have an older operating system, you may be asked to re-boot again early in the installation process and then restart the install. You may also be asked to reboot after install has finished. You need to have administrator privileges to install Distance.
+The Distance setup program has a filename of the form Distance-\[x\].\[y\].msi, where \[x\] is derived from the version number and y is the release number. Double-click on this file to run it. You are then guided through the installation. If you have an older operating system, you may be asked to re-boot again early in the installation process and then restart the install. You may also be asked to reboot after install has finished. You need to have administrator privileges to install Distance.
 
-Once Distance is installed, you can run Distance 7 from the Programs \| Distance 7 folder off the Start menu on your windows Taskbar.
+Once Distance is installed, you can run Distance 8 from the Programs \| Distance 8 folder off the Start menu on your windows Taskbar.
 
 A list of the files added by Distance installation is given in Appendix 1.
 
@@ -94,7 +94,7 @@ Information on the sample projects is given in Chapter 2 of the online help.
 
 **Upgrading from previous versions of Distance**
 
-Distance 7.5 will install over any previous Distance 7.x installations, it is not necessary to remove these installations prior to installing Distance 7.5. Distance 7.5 will register itself to open .dst files when you double-click on them. If you open a Distance project created in a previous version, you will be asked if you wish to upgrade it, and if you say \"Yes\", Distance will perform the upgrade automatically.
+Distance 8.0 will install over any previous Distance 8.x installations, it is not necessary to remove these installations prior to installing Distance 8.0. Distance 8.0 will register itself to open .dst files when you double-click on them. If you open a Distance project created in a previous version, you will be asked if you wish to upgrade it, and if you say \"Yes\", Distance will perform the upgrade automatically.
 
 When upgrading Distance you should also upgrade to the recommended version of R. Failing to do so may mean that you continue using old versions of the R packages or the newer R packages may not work in the older version of R. Note that, to ensure that Distance installs the new R packages on the first run of an analysis that uses one of the R-based analysis engines, please take the following steps:
 
@@ -105,13 +105,13 @@ Note also that to successfully upgrade the R packages when you run an analysis, 
 
 You are advised to re-run all analyses as the analysis engines are improved with each iteration of the software.
 
-If you have a copy of Distance 6, 5, 4 or 3.5 on your machine, you don\'t have to uninstall it before installing Distance 7. Distance 7 will install into a different directory, and you can carry on using both the older and new version of the software if you wish. However, please note that if you upgrade a Distance project using Distance 7, you will not be able to open it in any of the previous versions. Should you wish to do this, you should copy the project before upgrading, so you can open the old files in the old version. One convenient way to copy a project from within Distance is to use File \| Export project.
+If you have a copy of Distance 7, 6, 5, 4 or 3.5 on your machine, you don\'t have to uninstall it before installing Distance 8. Distance 8 will install into a different directory, and you can carry on using both the older and new version of the software if you wish. However, please note that if you upgrade a Distance project using Distance 8, you will not be able to open it in any of the previous versions. Should you wish to do this, you should copy the project before upgrading, so you can open the old files in the old version. One convenient way to copy a project from within Distance is to use File \| Export project.
 
 Please let us know if you have any problems transitioning to the new version of Distance.
 
 **Uninstalling Distance**
 
-To uninstall Distance, click on the Add/Remove Programs icon in the Windows Control Panel. Choose Distance 7 from the list and click the Add/Remove button. During the removal process, you will be asked whether you want to remove shared components. Press \"Yes to All\". The install program may not be able to remove all of the folders under C:\\Program Files\\Distance7\\ if you have changed any files in them (e.g., by creating new projects in \\Sample projects). In this case you will have to remove these folders manually after the installation has finished.
+To uninstall Distance, click on the Add/Remove Programs icon in the Windows Control Panel. Choose Distance 8 from the list and click the Add/Remove button. During the removal process, you will be asked whether you want to remove shared components. Press \"Yes to All\". The install program may not be able to remove all of the folders under C:\\Program Files\\Distance7\\ if you have changed any files in them (e.g., by creating new projects in \\Sample projects). In this case you will have to remove these folders manually after the installation has finished.
 
 **Distance-sampling email discussion list**
 
@@ -123,7 +123,7 @@ You can browse the list without joining, by navigating to groups.google.com and 
 
 Posts from the old JISCmail mailing list are archived on the Google Group. Please check the archive of previous messages before posting!
 
-**Current restrictions for Distance 7.5 Release 2**
+**Current restrictions for Distance 8.0 Release 1**
 
 MCDS Analysis Engine
 
@@ -172,6 +172,8 @@ Doesn\'t support data-linked study region
 **New features, resolved issues and known problems**
 
 Below is a summary of new features and resolved issues in each recent version of Distance. For an up to date list, and a list of known problems, please visit https://github.com/DistanceDevelopment/distance-bugs
+
+Distance 8.0 Release 1 - Uses latest version of R (4.4.1) with updated versions of dssd, dsims, Distance and mrds which have various bug fixes. The optimisation for detection function fitting in mrds and Distance has been improved and may now give slightly different results.
 
 Distance 7.5 Release 2 - Uses latest version of R (4.2.2) with updated versions of dssd, dsims, Distance and mrds which have various bug fixes. Fix in dsims now allows for stratum level designs within simulations at the global level.
 
@@ -243,9 +245,9 @@ To report a new problem, please visit
 https://github.com/DistanceDevelopment/distance-bugs and click the \'New
 Issue\' button or E-mail us at distance@st-andrews.ac.uk.
 
-**Appendix 1: Files added during Distance 7 Installation**
+**Appendix 1: Files added during Distance 8 Installation**
 
-Note - if older versions of these files are already present, they will be overwritten. If newer versions are already present, they will not be changed. (An exception to this is RichEd32.dll, which caused some incompatibility problems in test installations. This file will only be installed if one is not present on the target system.) If you selected the backup option during Setup, backups of all overwritten files will be stored in the BACKUP subdirectory, off the Distance 7 program directory. A log of all files installed is kept in the program directory in the file install.log.
+Note - if older versions of these files are already present, they will be overwritten. If newer versions are already present, they will not be changed. 
 
 **Common Files \\ Data Dynamics folder**
 
@@ -253,13 +255,13 @@ Actbar2.ocx
 
 **Common files \\ ESRI**
 
-Mo20.ocx
 AF20.dll
-Shape20.dll
+JetTable20.dll
+Mo20.ocx
+mtch.dll
 pe81.dll
 sg81.dll
-mtch.dll
-JetTable20.dll
+Shape20.dll
 
 **Microsoft \\ Shared Tools \\ DAO**
 
@@ -272,109 +274,110 @@ Msjter35.dll
 Msrd2x35.dll
 dbajet32.dll
 
-**Windows System 32 folder**
+**Windows SysWOW64 folder**
 
-Asycfilt.dll
-Comcat.dll
-Comctl32.ocx
-Comdlg32.ocx
-Expsrv.dll
-Mfc42.dll
-Msvbvm60.dll
-Msvcirt.dll
-Msvcp60.dll
-Msvcrt.dll
-Msvcrt40.dll
-mtch.dll
-Oleaut32.dll
-Oledlg.dll
-OlePro32.dll
-Riched32.dll
-Scrrun.dll
-Stdole2.tlb
-vb5db.dll
-vbar332.dll
-vbscript.dll
-VsFlex7d.ocx
 ccrpdbs6.dll
-tab32x30.ocx
-mschrt20.ocx
-richtx32.ocx
+DstZip.dll
 dwAXExtn.dll
 Dwsdes32.dll
-D7Zip.dll
+MSEXCL35.DLL
+MSRD2X35.dll
+MSTEXT35.DLL
 PolarZip.ocx
 PolarZipSpan.dll
-RichEd32.dll
 Splitter.ocx
+tab32x30.ocx
+vb5db.dll
+VsFlex7d.ocx
 
-**Program Files (x86) \\ Distance7**
+**resources \\ msm**
+comctl32.msm
+mschrt20.msm
+mscomct2.msm
+mscomctl.msm
+msdao35.msm
+msjet35.msm
+richtext.msm
+tabctl32.msm
 
-Ec.exe
-DistanceProject.ico
+
+**Program Files (x86) \\ Distance 8**
+
+CDlg5.dll
+CSDesc7.ocx
+CTmr6.dll
+D8CDSDet.ocx
+D8CDSNEI.dll
+D8CDSPrp.ocx
+D8DbEng.dll
+D8DesDet.ocx
+D8DesNEI.dll
+D8DesEng.dll
+D8DesPrp.ocx
+D8DFPrp.ocx
+D8DSMDet.ocx
+D8DSMNEI.dll
+D8DSMPrp.ocx
+D8IDWiz.dll
+D8ISWiz.dll
+D8Legend.ocx
+D8MADet.ocx
+D8MANEI.dll
+D8Map.ocx
+D8MAPrp.ocx
+D8MDPrp.ocx
+D8MRDSDet.ocx
+D8MRDSNEI.dll
+D8MRDSPrp.ocx
+D8NEH.exe
+D8NEIUtil.dll
+D8NSvr.dll
+D8SIMDet.ocx
+D8SIMNEI.dll
+D8SIMPrp.ocx
+D8SPWiz.dll
+D8SvyDet.ocx
+D8SvyNEI.dll
+D8SvyPrp.ocx
+D8Util.dll
 Distance.exe
-D7DbEng.dll
-CDlg.dll
-CTmr.dll
-CSDesc.ocx
-LLine.ocx
-LogStr.dll
-LogWin.ocx
-SList.ocx
-PrjParams.dll
-D7Map.ocx
-D7Legend.ocx
+DistanceProject.ico
 DistIni.mdb
-ID7NEng.dll
-D7NEH.exe
-D7NSvr.dll
-D7NEIUtil.dll
-D7CDSNEI.dll
-D7MRDSNEI.dll
-D7DSMNEI.dll
-D7MANEI.dll
-D7SIMNEI.dll
-MCDS.exe
-D7DesNEI.dll
-D7DesEng.dll
-D7SvyNEI.dll
-D7DFPrp.ocx
-D7MDPrp.ocx
-D7CDSPrp.ocx
-D7MRDSPrp.ocx
-D7MAPrp.ocx
-D7SIMPrp
-D7DSMPrp.ocx
-D7DesPrp.ocx
-D7SvyPrp.ocx
-D7DesDet.ocx
-D7SPWiz.dll
-DeIDWiz.dll
-DistanceLogo.jpg
-ReadMe.rtf
-support.r
+dsims.support.r
 dsm.support.r
-mrds.support.r
+Ec.exe
+ID8NEng.dll
+LLine5.ocx
+LogStr5.dll
+LogWin5.ocx
 mads.support.r
-dssim.support.r
+MCDS.exe
+mrds.support.r
+PrjParams8.dll
+ReadMe.rtf
+SList6.ocx
+support.r
+UseAgreement.txt
 
-**Program Files (x86) / Distance / Help**
+**Program Files (x86) / Distance 8 / Help**
 
+Authors.rtf
+DataEntryFinished.rtf
+DataEntryGlobal.rtf
+DataEntryIntroduction.rtf
+DataEntryObservation.rtf
+DataEntrySample.rtf
+DataEntryStratum.rtf
 distance.chm
 distance.pdf
+DistanceLogo.jpg
 Sponsors.rtf
-Authors.rtf
-DataEntryIntroduction.rtf
-DataEntryGlobal.rtf
-DataEntryStratum.rtf
-DataEntryObservation.rtf
-DataEntryFinished.rtf
 TipOfTheDay.txt
 
-**Program Files (x86) / Distance / Sample Projects**
+**Program Files (x86) / Distance 8 / Sample Projects**
 
 \[a number of sample project files\]
 
-**Program Files (x86) / Distance / RPackages**
+**Program Files (x86) / Distance 8 / RPackages**
 
 Copies of all the packages required by the Distance engines that use R.
