@@ -32,7 +32,11 @@ Bugs or suggested enhancements should be reported at the [Distance issue tracker
 
 ## Download
 
+<!--
 Download Distance 8.0 Release 1 <a href="https://app.onlinesurveys.jisc.ac.uk/s/standrews/distance-8-0-release-1-download" target="_blank">here</a>
+-->
+
+[Download Distance 8.0 Release 1](https://app.onlinesurveys.jisc.ac.uk/s/standrews/distance-8-0-release-1-download){.btn .btn-primary .btn role="button" data-toggle="tooltip" title="Standalone Windows software"}
  
 Once you have downloaded the file, simply run it to launch the setup program, and then follow the instructions displayed on your screen.  A reboot may be required, in which case you may need to restart the setup program again. 
 
