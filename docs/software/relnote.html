@@ -242,6 +242,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#problems-with-install" id="toc-problems-with-install" class="nav-link" data-scroll-target="#problems-with-install">Problems with Install</a></li>
   </ul></li>
   </ul></li>
+  <li><a href="#upgrading-from-previous-versions-of-distance" id="toc-upgrading-from-previous-versions-of-distance" class="nav-link" data-scroll-target="#upgrading-from-previous-versions-of-distance">Upgrading from previous versions of Distance</a></li>
+  <li><a href="#uninstalling-distance" id="toc-uninstalling-distance" class="nav-link" data-scroll-target="#uninstalling-distance">Uninstalling Distance</a></li>
+  <li><a href="#distance-sampling-email-discussion-list" id="toc-distance-sampling-email-discussion-list" class="nav-link" data-scroll-target="#distance-sampling-email-discussion-list">Distance-sampling email discussion list</a></li>
+  <li><a href="#current-restrictions-for-distance-8.0-release-1" id="toc-current-restrictions-for-distance-8.0-release-1" class="nav-link" data-scroll-target="#current-restrictions-for-distance-8.0-release-1">Current restrictions for Distance 8.0 Release 1</a></li>
+  <li><a href="#new-features-resolved-issues-and-known-problems" id="toc-new-features-resolved-issues-and-known-problems" class="nav-link" data-scroll-target="#new-features-resolved-issues-and-known-problems">New features, resolved issues and known problems</a></li>
+  <li><a href="#reporting-problems" id="toc-reporting-problems" class="nav-link" data-scroll-target="#reporting-problems">Reporting problems</a></li>
+  <li><a href="#appendix-1-files-added-during-distance-8-installation" id="toc-appendix-1-files-added-during-distance-8-installation" class="nav-link" data-scroll-target="#appendix-1-files-added-during-distance-8-installation">Appendix 1: Files added during Distance 8 Installation</a></li>
   </ul>
 </nav>
     </div>
@@ -271,17 +278,6 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Release Notes - November 2024</p>
 </blockquote>
-<p><em>Contents</em></p>
-<ul>
-<li>Installation Notes</li>
-<li>Upgrading from previous versions of Distance</li>
-<li>Uninstalling Distance</li>
-<li>Distance-sampling email list</li>
-<li>Current restrictions</li>
-<li>New features, resolved issues and known problems</li>
-<li>Reporting problems</li>
-<li>Appendix 1: Files Added During Installation</li>
-</ul>
 <section id="installation-notes" class="level1">
 <h1>Installation Notes</h1>
 <section id="system-requirements-for-distance-8.0" class="level2">
@@ -302,14 +298,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="windows-script-5.6" class="level3">
 <h3 class="anchored" data-anchor-id="windows-script-5.6">Windows Script 5.6</h3>
-<p>If you are trying to run Distance with a legacy version of Windows (before Windows Vista) you may need to install Windows Script, if it is not already on your machine. The Distance installation program contains a copy of the English language verion of Windows Script 5.6, and you have the option to install this as part of the program setup. If you are using a non-English version of Windows, you will probably want to download and install the version of Windows Script appropriate for your language -- you can get this from http://www.microsoft.com/scripting/. If you have already installed the appropriate version of Windows Script on your computer, then you should say "No" when the Distance setup program asks you if you want to install its version.</p>
+<p>If you are trying to run Distance with a legacy version of Windows (before Windows Vista) you may need to install Windows Script, if it is not already on your machine. The Distance installation program contains a copy of the English language verion of Windows Script 5.6, and you have the option to install this as part of the program setup. If you are using a non-English version of Windows, you will probably want to download and install the version of Windows Script appropriate for your language – you can get this from http://www.microsoft.com/scripting/. If you have already installed the appropriate version of Windows Script on your computer, then you should say “No” when the Distance setup program asks you if you want to install its version.</p>
 </section>
 <section id="pdf-file-reader" class="level3">
 <h3 class="anchored" data-anchor-id="pdf-file-reader">PDF file Reader</h3>
 <p>The Distance User’s Guide is also available in Adobe PDF format. To read this file (which is installed in the Distance/Help directory), you need software capable of reading PDF files. One example is Adobe Acrobat reader, available for free from http://www.adobe.com, but other free software is available.</p>
 <section id="running-distance-under-other-operating-systems" class="level4">
 <h4 class="anchored" data-anchor-id="running-distance-under-other-operating-systems">Running Distance under other operating systems</h4>
-<p>To run Distance under non-Windows operating systems, a Windows emulator is required. For some tips, see the section on "Running Distance on other operating systems" at http://distancesampling.org/distanceextras.html.</p>
+<p>To run Distance under non-Windows operating systems, a Windows emulator is required. For some tips, see the section on “Running Distance on other operating systems” at http://distancesampling.org/distanceextras.html.</p>
 </section>
 <section id="running-distance-in-extended-character-systems" class="level4">
 <h4 class="anchored" data-anchor-id="running-distance-in-extended-character-systems">Running Distance in extended character systems</h4>
@@ -331,20 +327,29 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="problems-with-install">Problems with Install</h3>
 <p>Problems encountered when installing Distance are recorded here: https://github.com/DistanceDevelopment/distance-bugs</p>
 <p>The main installation issues encountered include conflicts with antivirus software and problems opening dlls. Conflicts with antivirus software can be resolved by temporarily disabling the antivirus software prior to installation. Issues relating to dll conflicts are more complicated, please contact us at <a href="mailto:distance@st-andrews.ac.uk">distance@st-andrews.ac.uk</a> and we will be happy to try to help you resolve the problem. We now build an alternative installer to try to get round these issues.</p>
-<p>Another common issue is a warning produced by Windows Defender:</p>
-<p>Windows protected your PC Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.</p>
-<p><u>More info</u></p>
-<p>We are working on a resolution to this problem, but in the meantime please be assured that Distance is perfectly safe to install, and the following is a work-around to the error message.</p>
-<ul>
-<li>Click on the <u>More info</u> link.</li>
-<li>You should see a button Run anyway.</li>
-<li>Click on the Run anyway button and the installation should proceed as normal.</li>
-</ul>
+<!--
+Another common issue is a warning produced by Windows Defender:
+
+Windows protected your PC Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.
+
+[More info]{.underline}
+
+We are working on a resolution to this problem, but in the meantime please be assured that Distance is perfectly safe to install, and the following is a work-around to the error message.
+
+- Click on the [More info]{.underline} link.
+- You should see a button Run anyway.
+- Click on the Run anyway button and the installation should proceed as normal.
+
+-->
 <p>If you are having a problem that is not listed there, please (1) check your computer meets the minimum requirements (above); (2) check the archives of the distance-sampling discussion list (see below); (3) look at the file C:\Program Files (x86)\Distance 7\Install.log to see if it gives you any clues as to the problem; (4) contact the program authors by email: <a href="distance@st-andrews.ac.uk">distance@st-andrews.ac.uk</a>.</p>
 <p><em>Sample Projects</em></p>
 <p>Information on the sample projects is given in Chapter 2 of the online help.</p>
-<p><strong>Upgrading from previous versions of Distance</strong></p>
-<p>Distance 8.0 will install over any previous Distance 8.x installations, it is not necessary to remove these installations prior to installing Distance 8.0. Distance 8.0 will register itself to open .dst files when you double-click on them. If you open a Distance project created in a previous version, you will be asked if you wish to upgrade it, and if you say "Yes", Distance will perform the upgrade automatically.</p>
+</section>
+</section>
+</section>
+<section id="upgrading-from-previous-versions-of-distance" class="level1">
+<h1>Upgrading from previous versions of Distance</h1>
+<p>Distance 8.0 will install over any previous Distance 8.x installations, it is not necessary to remove these installations prior to installing Distance 8.0. Distance 8.0 will register itself to open .dst files when you double-click on them. If you open a Distance project created in a previous version, you will be asked if you wish to upgrade it, and if you say “Yes”, Distance will perform the upgrade automatically.</p>
 <p>When upgrading Distance you should also upgrade to the recommended version of R. Failing to do so may mean that you continue using old versions of the R packages or the newer R packages may not work in the older version of R. Note that, to ensure that Distance installs the new R packages on the first run of an analysis that uses one of the R-based analysis engines, please take the following steps:</p>
 <ul>
 <li>Choose Tools | Preferences | R Options</li>
@@ -354,35 +359,53 @@ ul.task-list li input[type="checkbox"] {
 <p>You are advised to re-run all analyses as the analysis engines are improved with each iteration of the software.</p>
 <p>If you have a copy of Distance 7, 6, 5, 4 or 3.5 on your machine, you don't have to uninstall it before installing Distance 8. Distance 8 will install into a different directory, and you can carry on using both the older and new version of the software if you wish. However, please note that if you upgrade a Distance project using Distance 8, you will not be able to open it in any of the previous versions. Should you wish to do this, you should copy the project before upgrading, so you can open the old files in the old version. One convenient way to copy a project from within Distance is to use File | Export project.</p>
 <p>Please let us know if you have any problems transitioning to the new version of Distance.</p>
-<p><strong>Uninstalling Distance</strong></p>
-<p>To uninstall Distance, click on the Add/Remove Programs icon in the Windows Control Panel. Choose Distance 8 from the list and click the Add/Remove button. During the removal process, you will be asked whether you want to remove shared components. Press "Yes to All". The install program may not be able to remove all of the folders under C:\Program Files\Distance7\ if you have changed any files in them (e.g., by creating new projects in \Sample projects). In this case you will have to remove these folders manually after the installation has finished.</p>
-<p><strong>Distance-sampling email discussion list</strong></p>
+</section>
+<section id="uninstalling-distance" class="level1">
+<h1>Uninstalling Distance</h1>
+<p>To uninstall Distance, click on the Add/Remove Programs icon in the Windows Control Panel. Choose Distance 8 from the list and click the Add/Remove button. During the removal process, you will be asked whether you want to remove shared components. Press “Yes to All”. The install program may not be able to remove all of the folders under C:\Program Files\Distance8\ if you have changed any files in them (e.g., by creating new projects in \Sample projects). In this case you will have to remove these folders manually after the installation has finished.</p>
+</section>
+<section id="distance-sampling-email-discussion-list" class="level1">
+<h1>Distance-sampling email discussion list</h1>
 <p>The purpose of this list is to promote the sharing of ideas and information among researchers and practitioners interested in distance sampling techniques. It is a relatively low-volume list, and has been running since 1998, first as a JISCmail list, but more recently as a Google Group.</p>
 <p>Suitable topics for posting include: questions about survey design and analysis, new methodological developments, use of software tools (program Distance and other software), news about upcoming meetings, workshops and conferences where distance methods will be discussed, jobs in distance sampling-related fields.</p>
-<p>You can browse the list without joining, by navigating to groups.google.com and searching for the group distance-sampling If you have a Google account, you can join via that; alternatively, you can send a blank email to distance-sampling+subscribe@googlegroups. In response, you will receive a message with a link button to "Join this group", please follow the instructions. Once you have completed the steps you will receive a second E-mail asking you again to confirm via clicking on the "Join this group" button. You should then be informed that you have been successfully subscribed. See http://distancesampling.org/distancelist.html for further information.</p>
+<p>You can browse the list without joining, by navigating to groups.google.com and searching for the group distance-sampling If you have a Google account, you can join via that; alternatively, you can send a blank email to distance-sampling+subscribe@googlegroups. In response, you will receive a message with a link button to “Join this group”, please follow the instructions. Once you have completed the steps you will receive a second E-mail asking you again to confirm via clicking on the “Join this group” button. You should then be informed that you have been successfully subscribed. See <a href="../resources/distancelist">distance list information</a> for further information.</p>
 <p>Posts from the old JISCmail mailing list are archived on the Google Group. Please check the archive of previous messages before posting!</p>
-<p><strong>Current restrictions for Distance 8.0 Release 1</strong></p>
-<p>MCDS Analysis Engine</p>
-<p>Maximum number of covariates and factor levels is listed in the manual, under “Limitations”</p>
-<p>When covariates are specified, only half-normal and hazard-rate key functions allowed</p>
-<p>Cannot force the fitted function to be monotonic decreasing</p>
-<p>When cluster size is a covariate, stratified analyses are not allowed</p>
-<p>Cannot have non-factor covariate value -9999.</p>
-<p>MRDS Analysis Engine</p>
-<p>Ignores units conversion specified in the Units tab of the Data Filter</p>
-<p>MA Analysis Engine</p>
-<p>Line transect surveys only</p>
-<p>Single observer</p>
-<p>Ignores units conversion specified in the Units tab of the Data Filter</p>
-<p>Simulation Engine</p>
-<p>Line and point transect surveys excluding adjusted angle and equal angle zig zag designs</p>
-<p>Single observer</p>
-<p>Only takes the truncation distance from Data Filter (binned data can be generated in dsims R package)</p>
-<p>Minus sampling only</p>
-<p>All units must be the same for region, design and detection function</p>
-<p>Strata must have unique names/labels</p>
-<p>Doesn't support data-linked study region</p>
-<p><strong>New features, resolved issues and known problems</strong></p>
+</section>
+<section id="current-restrictions-for-distance-8.0-release-1" class="level1">
+<h1>Current restrictions for Distance 8.0 Release 1</h1>
+<ul>
+<li>MCDS Analysis Engine
+<ul>
+<li>Maximum number of covariates and factor levels is listed in the manual, under “Limitations”</li>
+<li>When covariates are specified, only half-normal and hazard-rate key functions allowed</li>
+<li>Cannot force the fitted function to be monotonic decreasing</li>
+<li>When cluster size is a covariate, stratified analyses are not allowed</li>
+<li>Cannot have non-factor covariate value -9999.</li>
+</ul></li>
+<li>MRDS Analysis Engine
+<ul>
+<li>Ignores units conversion specified in the Units tab of the Data Filter</li>
+</ul></li>
+<li>MA Analysis Engine
+<ul>
+<li>Line transect surveys only</li>
+<li>Single observer</li>
+<li>Ignores units conversion specified in the Units tab of the Data Filter</li>
+</ul></li>
+<li>Simulation Engine
+<ul>
+<li>Line and point transect surveys excluding adjusted angle and equal angle zig zag designs</li>
+<li>Single observer</li>
+<li>Only takes the truncation distance from Data Filter (binned data can be generated in dsims R package)</li>
+<li>Minus sampling only</li>
+<li>All units must be the same for region, design and detection function</li>
+<li>Strata must have unique names/labels</li>
+<li>Doesn’t support data-linked study region</li>
+</ul></li>
+</ul>
+</section>
+<section id="new-features-resolved-issues-and-known-problems" class="level1">
+<h1>New features, resolved issues and known problems</h1>
 <p>Below is a summary of new features and resolved issues in each recent version of Distance. For an up to date list, and a list of known problems, please visit https://github.com/DistanceDevelopment/distance-bugs</p>
 <p>Distance 8.0 Release 1 - Uses latest version of R (4.4.1) with updated versions of dssd, dsims, Distance and mrds which have various bug fixes. The optimisation for detection function fitting in mrds and Distance has been improved and may now give slightly different results.</p>
 <p>Distance 7.5 Release 2 - Uses latest version of R (4.2.2) with updated versions of dssd, dsims, Distance and mrds which have various bug fixes. Fix in dsims now allows for stratum level designs within simulations at the global level.</p>
@@ -405,16 +428,20 @@ ul.task-list li input[type="checkbox"] {
 <p>- Designs and Simulations will not run if region or strata names that they rely on are changed.</p>
 <p>MA Engine</p>
 <p>An option to specify which field contains species codes has been added</p>
-<p>The 'cv' bug in covariate uncertainty has been fixed</p>
+<p>The ‘cv’ bug in covariate uncertainty has been fixed</p>
 <p>Covariate uncertainty on multiple covariates no longer causes an error</p>
 <p>Note that the MA engine requires that the MRDS analysis object exist in the workspace so the option to remove these objects must be switched off</p>
 <p>R packages (mads, mrds, dsm and DSsim) have been updated to latest versions and compiled under R 3.2.2</p>
 <p>See NEWS file in the relevant packages for further information of changes and/or bug fixes</p>
-<p>Here's a brief list of new features, resolved issues and known problems in Distance 7.0, relative to 6.2:</p>
+<p>Here’s a brief list of new features, resolved issues and known problems in Distance 7.0, relative to 6.2:</p>
 <p>We have made 2 major additions, the multi-analysis (MA) engine and the simulation engine. The MA analysis engine deals with unidentified sightings, covariate uncertainty and model uncertainty. The simulation engine allows you to try out different designs and see how they perform for your particular study.</p>
-<p><strong>Reporting problems</strong></p>
-<p>To report a new problem, please visit https://github.com/DistanceDevelopment/distance-bugs and click the 'New Issue' button or E-mail us at distance@st-andrews.ac.uk.</p>
-<p><strong>Appendix 1: Files added during Distance 8 Installation</strong></p>
+</section>
+<section id="reporting-problems" class="level1">
+<h1>Reporting problems</h1>
+<p>To report a new problem, please visit https://github.com/DistanceDevelopment/distance-bugs and click the ‘New Issue’ button or E-mail us at distance@st-andrews.ac.uk.</p>
+</section>
+<section id="appendix-1-files-added-during-distance-8-installation" class="level1">
+<h1>Appendix 1: Files added during Distance 8 Installation</h1>
 <p>Note - if older versions of these files are already present, they will be overwritten. If newer versions are already present, they will not be changed.</p>
 <p><strong>Common Files \ Data Dynamics folder</strong></p>
 <p>Actbar2.ocx</p>
@@ -435,8 +462,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Copies of all the packages required by the Distance engines that use R.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

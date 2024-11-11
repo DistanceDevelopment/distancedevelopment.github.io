@@ -6,7 +6,7 @@ Distance 8.0 Release 1
 
 > Release Notes - November 2024
 
-# Installation Notes
+# Installation Notes 
 
 ## System Requirements for Distance 8.0
 
@@ -110,7 +110,7 @@ The purpose of this list is to promote the sharing of ideas and information amon
 
 Suitable topics for posting include: questions about survey design and analysis, new methodological developments, use of software tools (program Distance and other software), news about upcoming meetings, workshops and conferences where distance methods will be discussed, jobs in distance sampling-related fields.
 
-You can browse the list without joining, by navigating to groups.google.com and searching for the group distance-sampling If you have a Google account, you can join via that; alternatively, you can send a blank email to distance-sampling+subscribe@googlegroups. In response, you will receive a message with a link button to "Join this group", please follow the instructions. Once you have completed the steps you will receive a second E-mail asking you again to confirm via clicking on the "Join this group" button. You should then be informed that you have been successfully subscribed. See [distance list information](../resources/distancelist) for further information.
+You can browse the list without joining, by navigating to groups.google.com and searching for the group distance-sampling If you have a Google account, you can join via that; alternatively, you can send a blank email to distance-sampling+subscribe@googlegroups. In response, you will receive a message with a link button to "Join this group", please follow the instructions. Once you have completed the steps you will receive a second E-mail asking you again to confirm via clicking on the "Join this group" button. You should then be informed that you have been successfully subscribed. See [distance list information](../resources/distancelist.qmd) for further information.
 
 Posts from the old JISCmail mailing list are archived on the Google Group. Please check the archive of previous messages before posting!
 
@@ -202,7 +202,7 @@ We have made 2 major additions, the multi-analysis (MA) engine and the simulatio
 
 # Reporting problems
 
-To report a new problem, please visit https://github.com/DistanceDevelopment/distance-bugs and click the 'New Issue' button or E-mail us at distance@st-andrews.ac.uk.
+To report a new problem, please [visit](https://github.com/DistanceDevelopment/distance-bugs) and click the 'New Issue' button or [E-mail us](mailto:distance@st-andrews.ac.uk).
 
 # Appendix 1: Files added during Distance 8 Installation
 
