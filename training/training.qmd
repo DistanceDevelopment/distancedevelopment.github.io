@@ -31,4 +31,4 @@ We offer widening participation scholarships for our guided training workshops. 
   - double observer methods (for estimating detection probability on the line or point, g(0))
   - applying appropriate field methods
   
-[Visit online course](https://workshops.distancesampling.org/async2024-2/){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="free online course"}
+[Visit online course](https://distancesampling.org/online-course){.btn .btn-primary .btn-lg role="button" data-toggle="tooltip" title="free online course"}
