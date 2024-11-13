@@ -6,7 +6,6 @@ title: Download statistics
 
 ![Compiled from our download server and download survey information.](downloadstats-figs/cumulative-downloads-per-month.png)
 
-
 ![From user survey conducted in 2018.](downloadstats-figs/taxa.png)
 
 # `Distance` and `mrds` R packages
